@@ -12,16 +12,16 @@
     
     <meta name="keywords" content="" />
     
-    <meta name="description" content="1234567891011121314## 데이터 분석 (머신러닝, 딥러닝) 프로세스- 데이터 불러오기 + CSV, 오라클 , MySQL, PostgreSQL, 클라우드 DB연동- 탐색적 자료 분석 + 데이터 전처리 및 가공- 잠정적인 컬럼의 갯수를 지정해야 함- 머신러닝 모델 (&#x3D;통계 모델링, t.test, 분산분석, 교차분석)- 머신러닝 모델의 경우 배포">
+    <meta name="description" content="데이터 분석 (머신러닝, 딥러닝) 프로세스 데이터 불러오기 CSV, 오라클, MySQL, PostgreSQL, 클라우드 DB 연동   탐색적 자료 분석 데이터 전처리 및 가공   잠정적인 컬럼의 갯수를 지정해야 함 머신러닝 모델 (&#x3D;통계 모델링, t.test, 분산분석, 교차분석) 머신러닝 모델의 경우 배포 (현재는 다루지 않음 X) JSP-스프링">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Python 기초문법">
 <meta property="og:url" content="https://park128.github.io/2022/07/06/day_0706/index.html">
 <meta property="og:site_name" content="Hellow World">
-<meta property="og:description" content="1234567891011121314## 데이터 분석 (머신러닝, 딥러닝) 프로세스- 데이터 불러오기 + CSV, 오라클 , MySQL, PostgreSQL, 클라우드 DB연동- 탐색적 자료 분석 + 데이터 전처리 및 가공- 잠정적인 컬럼의 갯수를 지정해야 함- 머신러닝 모델 (&#x3D;통계 모델링, t.test, 분산분석, 교차분석)- 머신러닝 모델의 경우 배포">
+<meta property="og:description" content="데이터 분석 (머신러닝, 딥러닝) 프로세스 데이터 불러오기 CSV, 오라클, MySQL, PostgreSQL, 클라우드 DB 연동   탐색적 자료 분석 데이터 전처리 및 가공   잠정적인 컬럼의 갯수를 지정해야 함 머신러닝 모델 (&#x3D;통계 모델링, t.test, 분산분석, 교차분석) 머신러닝 모델의 경우 배포 (현재는 다루지 않음 X) JSP-스프링">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://park128.github.io/images/python_0706/output_4_1.png">
 <meta property="article:published_time" content="2022-07-06T00:00:00.000Z">
-<meta property="article:modified_time" content="2022-07-06T08:34:42.141Z">
+<meta property="article:modified_time" content="2022-07-07T07:39:21.830Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://park128.github.io/images/python_0706/output_4_1.png">
@@ -183,7 +183,7 @@
 <div class="article-date">
   <i class="fa fa-calendar-plus-o"></i>
   <a href="/2022/07/06/day_0706/" class="article-date">
-     <time datetime="2022-07-06T08:34:42.141Z" itemprop="dateModified">2022-07-06</time>
+     <time datetime="2022-07-07T07:39:21.830Z" itemprop="dateModified">2022-07-07</time>
   </a>
 </div>
 
@@ -205,26 +205,45 @@
 
             
 
-            <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">## 데이터 분석 (머신러닝, 딥러닝) 프로세스</span></span><br><span class="line">- 데이터 불러오기</span><br><span class="line"> + CSV, 오라클 , MySQL, PostgreSQL, 클라우드 DB연동</span><br><span class="line">- 탐색적 자료 분석</span><br><span class="line"> + 데이터 전처리 및 가공</span><br><span class="line">- 잠정적인 컬럼의 갯수를 지정해야 함</span><br><span class="line">- 머신러닝 모델 (=통계 모델링, t.test, 분산분석, 교차분석)</span><br><span class="line">- 머신러닝 모델의 경우 배포 (x)</span><br><span class="line"> + JSP 웹개발 시, 배우게 됨</span><br><span class="line">- 통계 모델링 경우, p-value 값 기준으로, 귀무가설 및 대립가설 검정</span><br><span class="line"></span><br><span class="line">- (공통) 결과 보고서를 작성해야함</span><br><span class="line"> + PPT 만들어야 함.</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
+            <h2 id="데이터-분석-머신러닝-딥러닝-프로세스"><a href="#데이터-분석-머신러닝-딥러닝-프로세스" class="headerlink" title="데이터 분석 (머신러닝, 딥러닝) 프로세스"></a>데이터 분석 (머신러닝, 딥러닝) 프로세스</h2><ul>
+<li>데이터 불러오기<ul>
+<li>CSV, 오라클, MySQL, PostgreSQL, 클라우드 DB 연동</li>
+</ul>
+</li>
+<li>탐색적 자료 분석<ul>
+<li>데이터 전처리 및 가공</li>
+</ul>
+</li>
+<li>잠정적인 컬럼의 갯수를 지정해야 함</li>
+<li>머신러닝 모델 (&#x3D;통계 모델링, t.test, 분산분석, 교차분석)</li>
+<li>머신러닝 모델의 경우 배포 (현재는 다루지 않음 X)<ul>
+<li>JSP-스프링 웹개발 시, 배우게 됨</li>
+</ul>
+</li>
+<li>통계 모델링 경우, p-value 값 기준으로, 귀무가설 및 대립가설 검정</li>
+<li>(공통) 결과 보고서를 작성해야함<ul>
+<li>PPT 만들어야 함.</li>
+</ul>
+</li>
+</ul>
 <h2 id="그래프-복습"><a href="#그래프-복습" class="headerlink" title="그래프 복습"></a>그래프 복습</h2><ul>
 <li>수치형 데이터 시각화</li>
 <li>범주형 데이터 시각화</li>
 <li>데이터 관계 시각화</li>
 <li>matplotlib 라이브러리 방법 (복잡)</li>
-<li>seaborn 라이브러리 방법 (단순)</li>
-</ul>
-<ul>
-<li>복잡한 그래프 그려야지! –&gt; matpltoltib</li>
+<li>seaborn 라이브러리 방법 (단순)<ul>
+<li>복잡한 그래프 그려아지! –&gt; matpltoltib</li>
 <li>1줄 그래프 –&gt; seaborn</li>
 </ul>
-<h3 id="수치형-데이터-시각화"><a href="#수치형-데이터-시각화" class="headerlink" title="수치형 데이터 시각화"></a>수치형 데이터 시각화</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> seaborn <span class="keyword">as</span> sns</span><br><span class="line">titanic = sns.load_dataset(<span class="string">&#x27;titanic&#x27;</span>)</span><br><span class="line">titanic.head()</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<h3 id="수치형-데이터-시각화"><a href="#수치형-데이터-시각화" class="headerlink" title="수치형 데이터 시각화"></a>수치형 데이터 시각화</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> seaborn <span class="keyword">as</span> sns </span><br><span class="line">titanic  = sns.load_dataset(<span class="string">&#x27;titanic&#x27;</span>)</span><br><span class="line">titanic.head()</span><br></pre></td></tr></table></figure>
 
 
 
 
 
-  <div id="df-0714b0e6-0951-4d10-b5e8-fd3f66192fde">
+  <div id="df-6177c8bd-39db-4db4-9f39-fc2406fa350a">
     <div class="colab-df-container">
       <div>
 <style scoped>
@@ -356,7 +375,7 @@
   </tbody>
 </table>
 </div>
-      <button class="colab-df-convert" onclick="convertToInteractive('df-0714b0e6-0951-4d10-b5e8-fd3f66192fde')"
+      <button class="colab-df-convert" onclick="convertToInteractive('df-6177c8bd-39db-4db4-9f39-fc2406fa350a')"
               title="Convert this dataframe to an interactive table."
               style="display:none;">
 
@@ -401,12 +420,12 @@
 
 <pre><code>  &lt;script&gt;
     const buttonEl =
-      document.querySelector(&#39;#df-0714b0e6-0951-4d10-b5e8-fd3f66192fde button.colab-df-convert&#39;);
+      document.querySelector(&#39;#df-6177c8bd-39db-4db4-9f39-fc2406fa350a button.colab-df-convert&#39;);
     buttonEl.style.display =
       google.colab.kernel.accessAllowed ? &#39;block&#39; : &#39;none&#39;;
 
     async function convertToInteractive(key) &#123;
-      const element = document.querySelector(&#39;#df-0714b0e6-0951-4d10-b5e8-fd3f66192fde&#39;);
+      const element = document.querySelector(&#39;#df-6177c8bd-39db-4db4-9f39-fc2406fa350a&#39;);
       const dataTable =
         await google.colab.kernel.invokeFunction(&#39;convertToInteractive&#39;,
                                                  [key], &#123;&#125;);
@@ -436,24 +455,21 @@
 
 
 
-<pre><code>&lt;matplotlib.axes._subplots.AxesSubplot at 0x7f06d9f94d50&gt;
+<pre><code>&lt;matplotlib.axes._subplots.AxesSubplot at 0x7fd6a5bda710&gt;
 </code></pre>
 <p><img src="/images/python_0706/output_4_1.png" alt="png"></p>
 <ul>
-<li><p>bins 그래프 두께</p>
-</li>
-<li><p>위 그래프를 보아하니 주저리 주저리</p>
-</li>
+<li>위 그래프를 보아하니 주저리주저리</li>
 </ul>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 커널밀도추정 함수 그래프</span></span><br><span class="line"><span class="comment"># 연속형 데이터 1개만 쓸 때 사용</span></span><br><span class="line">sns.kdeplot(data = titanic, x = <span class="string">&#x27;age&#x27;</span>, hue = <span class="string">&#x27;alive&#x27;</span>, multiple = <span class="string">&#x27;stack&#x27;</span>)</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 커널밀도추정 함수 그래프</span></span><br><span class="line"><span class="comment"># 연속형 데이터 1개만 쓸 때 사용</span></span><br><span class="line">sns.kdeplot(data = titanic, x = <span class="string">&#x27;age&#x27;</span>, hue = <span class="string">&#x27;alive&#x27;</span>, multiple=<span class="string">&#x27;stack&#x27;</span>)</span><br></pre></td></tr></table></figure>
 
 
 
 
-<pre><code>&lt;matplotlib.axes._subplots.AxesSubplot at 0x7f06da04ea10&gt;
+<pre><code>&lt;matplotlib.axes._subplots.AxesSubplot at 0x7fd6a3a196d0&gt;
 </code></pre>
-<p><img src="/images/python_0706/output_7_1.png" alt="png"></p>
-<h2 id="분포도"><a href="#분포도" class="headerlink" title="분포도"></a>분포도</h2><ul>
+<p><img src="/images/python_0706/output_6_1.png" alt="png"></p>
+<h4 id="분포도"><a href="#분포도" class="headerlink" title="분포도"></a>분포도</h4><ul>
 <li>수치형 데이터 한개 컬럼의 분포를 나타내는 그래프</li>
 <li>정규분포인가?</li>
 </ul>
@@ -462,18 +478,18 @@
 
 
 
-<pre><code>&lt;seaborn.axisgrid.FacetGrid at 0x7f06d9e144d0&gt;
+<pre><code>&lt;seaborn.axisgrid.FacetGrid at 0x7fd6a3999850&gt;
+</code></pre>
+<p><img src="/images/python_0706/output_8_1.png" alt="png"></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sns.displot(data = titanic, x = <span class="string">&#x27;age&#x27;</span>, kde = <span class="literal">True</span>)</span><br></pre></td></tr></table></figure>
+
+
+
+
+<pre><code>&lt;seaborn.axisgrid.FacetGrid at 0x7fd6a1072c90&gt;
 </code></pre>
 <p><img src="/images/python_0706/output_9_1.png" alt="png"></p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sns.displot(data = titanic, x = <span class="string">&#x27;age&#x27;</span>,kde = <span class="literal">True</span> )</span><br></pre></td></tr></table></figure>
-
-
-
-
-<pre><code>&lt;seaborn.axisgrid.FacetGrid at 0x7f06d746ef10&gt;
-</code></pre>
-<p><img src="/images/python_0706/output_10_1.png" alt="png"></p>
-<h2 id="범주형-데이터-시각화"><a href="#범주형-데이터-시각화" class="headerlink" title="범주형 데이터 시각화"></a>범주형 데이터 시각화</h2><ul>
+<h3 id="범주형-데이터-시각화"><a href="#범주형-데이터-시각화" class="headerlink" title="범주형 데이터 시각화"></a>범주형 데이터 시각화</h3><ul>
 <li>x축 범주형, y축 수치 데이터</li>
 </ul>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 막대 그래프</span></span><br><span class="line">sns.barplot(x = <span class="string">&#x27;class&#x27;</span>, y = <span class="string">&#x27;fare&#x27;</span>, data = titanic)</span><br></pre></td></tr></table></figure>
@@ -481,36 +497,36 @@
 
 
 
-<pre><code>&lt;matplotlib.axes._subplots.AxesSubplot at 0x7f06d73bff90&gt;
+<pre><code>&lt;matplotlib.axes._subplots.AxesSubplot at 0x7fd6a0ed3a10&gt;
 </code></pre>
 <p><img src="/images/python_0706/output_12_1.png" alt="png"></p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 포인트 플롯</span></span><br><span class="line">sns.pointplot(x = <span class="string">&#x27;class&#x27;</span>, y = <span class="string">&#x27;fare&#x27;</span>, data = titanic)</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 포인트 플롯</span></span><br><span class="line">sns.pointplot(x = <span class="string">&#x27;class&#x27;</span>, y=<span class="string">&#x27;fare&#x27;</span>, data = titanic)</span><br></pre></td></tr></table></figure>
 
 
 
 
-<pre><code>&lt;matplotlib.axes._subplots.AxesSubplot at 0x7f06d7338050&gt;
+<pre><code>&lt;matplotlib.axes._subplots.AxesSubplot at 0x7fd6a0e23e90&gt;
 </code></pre>
 <p><img src="/images/python_0706/output_13_1.png" alt="png"></p>
 <ul>
 <li>박스플롯</li>
 <li>제 1사분위 : 전체 데이터 중 하위 25%</li>
-<li>사분위 범위 수 (IQR) : 제 3사분위 - 저 1사분위</li>
+<li>사분위 범위 수(IQR) : 제 3사분위 - 제 1사분위</li>
 <li>최댓값 : 제 3사분위 + (1.5 * IQ)</li>
 </ul>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># boxplot</span></span><br><span class="line">sns.boxplot(x = <span class="string">&#x27;class&#x27;</span>, y = <span class="string">&#x27;age&#x27;</span>, data = titanic)</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># boxplot</span></span><br><span class="line">sns.boxplot(x = <span class="string">&#x27;class&#x27;</span>, y=<span class="string">&#x27;age&#x27;</span>, data = titanic)</span><br></pre></td></tr></table></figure>
 
 
 
 
-<pre><code>&lt;matplotlib.axes._subplots.AxesSubplot at 0x7f06d7314610&gt;
+<pre><code>&lt;matplotlib.axes._subplots.AxesSubplot at 0x7fd6a0e113d0&gt;
 </code></pre>
 <p><img src="/images/python_0706/output_15_1.png" alt="png"></p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 바이올린 플롯</span></span><br><span class="line">sns.violinplot(x = <span class="string">&#x27;class&#x27;</span> , y=<span class="string">&#x27;age&#x27;</span>, hue = <span class="string">&#x27;sex&#x27;</span>, data= titanic, split = <span class="literal">True</span>);</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 바이올린 플롯</span></span><br><span class="line">sns.violinplot(x = <span class="string">&#x27;class&#x27;</span>, y = <span class="string">&#x27;age&#x27;</span>, hue = <span class="string">&#x27;sex&#x27;</span>, data = titanic, split = <span class="literal">True</span>);</span><br></pre></td></tr></table></figure>
 
 
 <p><img src="/images/python_0706/output_16_0.png" alt="png"></p>
-<h2 id="카운트-플롯"><a href="#카운트-플롯" class="headerlink" title="카운트 플롯"></a>카운트 플롯</h2><ul>
+<h4 id="카운트-플롯"><a href="#카운트-플롯" class="headerlink" title="카운트 플롯"></a>카운트 플롯</h4><ul>
 <li>범주형 데이터의 갯수 확인 할 때 사용</li>
 </ul>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sns.countplot(x = <span class="string">&#x27;alive&#x27;</span>, data = titanic)</span><br></pre></td></tr></table></figure>
@@ -518,20 +534,19 @@
 
 
 
-<pre><code>&lt;matplotlib.axes._subplots.AxesSubplot at 0x7f06d9f838d0&gt;
+<pre><code>&lt;matplotlib.axes._subplots.AxesSubplot at 0x7fd6a0c32350&gt;
 </code></pre>
 <p><img src="/images/python_0706/output_18_1.png" alt="png"></p>
 <h2 id="데이터-관계-시각화"><a href="#데이터-관계-시각화" class="headerlink" title="데이터 관계 시각화"></a>데이터 관계 시각화</h2><ul>
 <li>여러 데이터 사이의 관계도 파악 위한 그래프</li>
 </ul>
-<p>히트맵</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">flights = sns.load_dataset(<span class="string">&#x27;flights&#x27;</span>)</span><br><span class="line">flights.head()</span><br></pre></td></tr></table></figure>
+<h3 id="히트맵"><a href="#히트맵" class="headerlink" title="히트맵"></a>히트맵</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">flights = sns.load_dataset(<span class="string">&#x27;flights&#x27;</span>)</span><br><span class="line">flights.head()</span><br></pre></td></tr></table></figure>
 
 
 
 
 
-  <div id="df-185389c7-a1e2-4be7-979e-28452f3a3624">
+  <div id="df-8de0dbaa-7fa5-4e4a-86e0-b45a28335c00">
     <div class="colab-df-container">
       <div>
 <style scoped>
@@ -591,7 +606,7 @@
   </tbody>
 </table>
 </div>
-      <button class="colab-df-convert" onclick="convertToInteractive('df-185389c7-a1e2-4be7-979e-28452f3a3624')"
+      <button class="colab-df-convert" onclick="convertToInteractive('df-8de0dbaa-7fa5-4e4a-86e0-b45a28335c00')"
               title="Convert this dataframe to an interactive table."
               style="display:none;">
 
@@ -636,12 +651,12 @@
 
 <pre><code>  &lt;script&gt;
     const buttonEl =
-      document.querySelector(&#39;#df-185389c7-a1e2-4be7-979e-28452f3a3624 button.colab-df-convert&#39;);
+      document.querySelector(&#39;#df-8de0dbaa-7fa5-4e4a-86e0-b45a28335c00 button.colab-df-convert&#39;);
     buttonEl.style.display =
       google.colab.kernel.accessAllowed ? &#39;block&#39; : &#39;none&#39;;
 
     async function convertToInteractive(key) &#123;
-      const element = document.querySelector(&#39;#df-185389c7-a1e2-4be7-979e-28452f3a3624&#39;);
+      const element = document.querySelector(&#39;#df-8de0dbaa-7fa5-4e4a-86e0-b45a28335c00&#39;);
       const dataTable =
         await google.colab.kernel.invokeFunction(&#39;convertToInteractive&#39;,
                                                  [key], &#123;&#125;);
@@ -668,13 +683,13 @@
 <ul>
 <li>각 연도별, 월별 승객수 구하기</li>
 </ul>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># flights[&#x27;year&#x27;].value_counts</span></span><br><span class="line"><span class="keyword">import</span> pandas <span class="keyword">as</span> pd</span><br><span class="line"></span><br><span class="line">df = pd.DataFrame(</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="string">&quot;foo&quot;</span>: [<span class="string">&quot;one&quot;</span>, <span class="string">&quot;one&quot;</span>, <span class="string">&quot;one&quot;</span>, <span class="string">&quot;two&quot;</span>,<span class="string">&quot;two&quot;</span>,<span class="string">&quot;two&quot;</span>],</span><br><span class="line">        <span class="string">&quot;bar&quot;</span>: [<span class="string">&quot;A&quot;</span>, <span class="string">&quot;B&quot;</span>, <span class="string">&quot;C&quot;</span>,<span class="string">&quot;A&quot;</span>, <span class="string">&quot;B&quot;</span>, <span class="string">&quot;C&quot;</span>] ,</span><br><span class="line">        <span class="string">&quot;baz&quot;</span>: [<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">5</span>,<span class="number">6</span>],</span><br><span class="line">        <span class="string">&quot;zoo&quot;</span>: [<span class="string">&#x27;x&#x27;</span>, <span class="string">&#x27;y&#x27;</span>, <span class="string">&#x27;z&#x27;</span>, <span class="string">&#x27;q&#x27;</span>, <span class="string">&#x27;w&#x27;</span>, <span class="string">&#x27;t&#x27;</span>],</span><br><span class="line">    &#125;</span><br><span class="line">)</span><br><span class="line"></span><br><span class="line">df</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> pandas <span class="keyword">as</span> pd</span><br><span class="line"></span><br><span class="line">df = pd.DataFrame(&#123;<span class="string">&#x27;foo&#x27;</span>: [<span class="string">&#x27;one&#x27;</span>, <span class="string">&#x27;one&#x27;</span>, <span class="string">&#x27;one&#x27;</span>, <span class="string">&#x27;two&#x27;</span>, <span class="string">&#x27;two&#x27;</span>,</span><br><span class="line">                           <span class="string">&#x27;two&#x27;</span>],</span><br><span class="line">                   <span class="string">&#x27;bar&#x27;</span>: [<span class="string">&#x27;A&#x27;</span>, <span class="string">&#x27;B&#x27;</span>, <span class="string">&#x27;C&#x27;</span>, <span class="string">&#x27;A&#x27;</span>, <span class="string">&#x27;B&#x27;</span>, <span class="string">&#x27;C&#x27;</span>],</span><br><span class="line">                   <span class="string">&#x27;baz&#x27;</span>: [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span>, <span class="number">6</span>],</span><br><span class="line">                   <span class="string">&#x27;zoo&#x27;</span>: [<span class="string">&#x27;x&#x27;</span>, <span class="string">&#x27;y&#x27;</span>, <span class="string">&#x27;z&#x27;</span>, <span class="string">&#x27;q&#x27;</span>, <span class="string">&#x27;w&#x27;</span>, <span class="string">&#x27;t&#x27;</span>]&#125;)</span><br><span class="line">df</span><br></pre></td></tr></table></figure>
 
 
 
 
 
-  <div id="df-5b01e095-fdc4-4563-895a-77c23c8071bd">
+  <div id="df-80b0f574-8430-40f0-9770-1e17dfde6e90">
     <div class="colab-df-container">
       <div>
 <style scoped>
@@ -747,7 +762,7 @@
   </tbody>
 </table>
 </div>
-      <button class="colab-df-convert" onclick="convertToInteractive('df-5b01e095-fdc4-4563-895a-77c23c8071bd')"
+      <button class="colab-df-convert" onclick="convertToInteractive('df-80b0f574-8430-40f0-9770-1e17dfde6e90')"
               title="Convert this dataframe to an interactive table."
               style="display:none;">
 
@@ -792,12 +807,12 @@
 
 <pre><code>  &lt;script&gt;
     const buttonEl =
-      document.querySelector(&#39;#df-5b01e095-fdc4-4563-895a-77c23c8071bd button.colab-df-convert&#39;);
+      document.querySelector(&#39;#df-80b0f574-8430-40f0-9770-1e17dfde6e90 button.colab-df-convert&#39;);
     buttonEl.style.display =
       google.colab.kernel.accessAllowed ? &#39;block&#39; : &#39;none&#39;;
 
     async function convertToInteractive(key) &#123;
-      const element = document.querySelector(&#39;#df-5b01e095-fdc4-4563-895a-77c23c8071bd&#39;);
+      const element = document.querySelector(&#39;#df-80b0f574-8430-40f0-9770-1e17dfde6e90&#39;);
       const dataTable =
         await google.colab.kernel.invokeFunction(&#39;convertToInteractive&#39;,
                                                  [key], &#123;&#125;);
@@ -828,7 +843,7 @@
 
 
 
-  <div id="df-b615eefa-4016-4b6b-8149-a8fecc4599b0">
+  <div id="df-c958c8f1-707a-4f41-9795-66ef57863481">
     <div class="colab-df-container">
       <div>
 <style scoped>
@@ -876,7 +891,7 @@
   </tbody>
 </table>
 </div>
-      <button class="colab-df-convert" onclick="convertToInteractive('df-b615eefa-4016-4b6b-8149-a8fecc4599b0')"
+      <button class="colab-df-convert" onclick="convertToInteractive('df-c958c8f1-707a-4f41-9795-66ef57863481')"
               title="Convert this dataframe to an interactive table."
               style="display:none;">
 
@@ -921,12 +936,12 @@
 
 <pre><code>  &lt;script&gt;
     const buttonEl =
-      document.querySelector(&#39;#df-b615eefa-4016-4b6b-8149-a8fecc4599b0 button.colab-df-convert&#39;);
+      document.querySelector(&#39;#df-c958c8f1-707a-4f41-9795-66ef57863481 button.colab-df-convert&#39;);
     buttonEl.style.display =
       google.colab.kernel.accessAllowed ? &#39;block&#39; : &#39;none&#39;;
 
     async function convertToInteractive(key) &#123;
-      const element = document.querySelector(&#39;#df-b615eefa-4016-4b6b-8149-a8fecc4599b0&#39;);
+      const element = document.querySelector(&#39;#df-c958c8f1-707a-4f41-9795-66ef57863481&#39;);
       const dataTable =
         await google.colab.kernel.invokeFunction(&#39;convertToInteractive&#39;,
                                                  [key], &#123;&#125;);
@@ -957,7 +972,7 @@
 
 
 
-  <div id="df-29a672ed-d279-405f-b896-83eb9655b73d">
+  <div id="df-5eb1578e-97aa-476f-aa6f-ce955869e387">
     <div class="colab-df-container">
       <div>
 <style scoped>
@@ -1054,7 +1069,7 @@
 </table>
 <p>144 rows × 3 columns</p>
 </div>
-      <button class="colab-df-convert" onclick="convertToInteractive('df-29a672ed-d279-405f-b896-83eb9655b73d')"
+      <button class="colab-df-convert" onclick="convertToInteractive('df-5eb1578e-97aa-476f-aa6f-ce955869e387')"
               title="Convert this dataframe to an interactive table."
               style="display:none;">
 
@@ -1099,12 +1114,12 @@
 
 <pre><code>  &lt;script&gt;
     const buttonEl =
-      document.querySelector(&#39;#df-29a672ed-d279-405f-b896-83eb9655b73d button.colab-df-convert&#39;);
+      document.querySelector(&#39;#df-5eb1578e-97aa-476f-aa6f-ce955869e387 button.colab-df-convert&#39;);
     buttonEl.style.display =
       google.colab.kernel.accessAllowed ? &#39;block&#39; : &#39;none&#39;;
 
     async function convertToInteractive(key) &#123;
-      const element = document.querySelector(&#39;#df-29a672ed-d279-405f-b896-83eb9655b73d&#39;);
+      const element = document.querySelector(&#39;#df-5eb1578e-97aa-476f-aa6f-ce955869e387&#39;);
       const dataTable =
         await google.colab.kernel.invokeFunction(&#39;convertToInteractive&#39;,
                                                  [key], &#123;&#125;);
@@ -1135,7 +1150,7 @@
 
 
 
-  <div id="df-9c598c03-fdb4-42af-a1c4-fe5651b11485">
+  <div id="df-5ba8f5cb-7c6e-4bee-9a11-9ff5ca0e5f50">
     <div class="colab-df-container">
       <div>
 <style scoped>
@@ -1369,7 +1384,7 @@
   </tbody>
 </table>
 </div>
-      <button class="colab-df-convert" onclick="convertToInteractive('df-9c598c03-fdb4-42af-a1c4-fe5651b11485')"
+      <button class="colab-df-convert" onclick="convertToInteractive('df-5ba8f5cb-7c6e-4bee-9a11-9ff5ca0e5f50')"
               title="Convert this dataframe to an interactive table."
               style="display:none;">
 
@@ -1414,12 +1429,12 @@
 
 <pre><code>  &lt;script&gt;
     const buttonEl =
-      document.querySelector(&#39;#df-9c598c03-fdb4-42af-a1c4-fe5651b11485 button.colab-df-convert&#39;);
+      document.querySelector(&#39;#df-5ba8f5cb-7c6e-4bee-9a11-9ff5ca0e5f50 button.colab-df-convert&#39;);
     buttonEl.style.display =
       google.colab.kernel.accessAllowed ? &#39;block&#39; : &#39;none&#39;;
 
     async function convertToInteractive(key) &#123;
-      const element = document.querySelector(&#39;#df-9c598c03-fdb4-42af-a1c4-fe5651b11485&#39;);
+      const element = document.querySelector(&#39;#df-5ba8f5cb-7c6e-4bee-9a11-9ff5ca0e5f50&#39;);
       const dataTable =
         await google.colab.kernel.invokeFunction(&#39;convertToInteractive&#39;,
                                                  [key], &#123;&#125;);
@@ -1449,15 +1464,15 @@
 
 
 
-<pre><code>&lt;matplotlib.axes._subplots.AxesSubplot at 0x7f06d6f528d0&gt;
+<pre><code>&lt;matplotlib.axes._subplots.AxesSubplot at 0x7fd6a5c5ca50&gt;
 </code></pre>
 <p><img src="/images/python_0706/output_27_1.png" alt="png"></p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 라인플롯</span></span><br><span class="line">sns.lineplot(x= <span class="string">&#x27;year&#x27;</span>, y = <span class="string">&#x27;passengers&#x27;</span>, data = flights)</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 라인플롯</span></span><br><span class="line">sns.lineplot(x = <span class="string">&#x27;year&#x27;</span>, y = <span class="string">&#x27;passengers&#x27;</span>, data = flights)</span><br></pre></td></tr></table></figure>
 
 
 
 
-<pre><code>&lt;matplotlib.axes._subplots.AxesSubplot at 0x7f06d747cbd0&gt;
+<pre><code>&lt;matplotlib.axes._subplots.AxesSubplot at 0x7fd6a0d0e890&gt;
 </code></pre>
 <p><img src="/images/python_0706/output_28_1.png" alt="png"></p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 산점도</span></span><br><span class="line">tips = sns.load_dataset(<span class="string">&#x27;tips&#x27;</span>)</span><br><span class="line">tips.head()</span><br></pre></td></tr></table></figure>
@@ -1466,7 +1481,7 @@
 
 
 
-  <div id="df-5983c50e-0a1b-4ef4-b172-cdcb6f73f5d7">
+  <div id="df-50af68bc-5468-436d-b90b-9d2c60168a5d">
     <div class="colab-df-container">
       <div>
 <style scoped>
@@ -1550,7 +1565,7 @@
   </tbody>
 </table>
 </div>
-      <button class="colab-df-convert" onclick="convertToInteractive('df-5983c50e-0a1b-4ef4-b172-cdcb6f73f5d7')"
+      <button class="colab-df-convert" onclick="convertToInteractive('df-50af68bc-5468-436d-b90b-9d2c60168a5d')"
               title="Convert this dataframe to an interactive table."
               style="display:none;">
 
@@ -1595,12 +1610,12 @@
 
 <pre><code>  &lt;script&gt;
     const buttonEl =
-      document.querySelector(&#39;#df-5983c50e-0a1b-4ef4-b172-cdcb6f73f5d7 button.colab-df-convert&#39;);
+      document.querySelector(&#39;#df-50af68bc-5468-436d-b90b-9d2c60168a5d button.colab-df-convert&#39;);
     buttonEl.style.display =
       google.colab.kernel.accessAllowed ? &#39;block&#39; : &#39;none&#39;;
 
     async function convertToInteractive(key) &#123;
-      const element = document.querySelector(&#39;#df-5983c50e-0a1b-4ef4-b172-cdcb6f73f5d7&#39;);
+      const element = document.querySelector(&#39;#df-50af68bc-5468-436d-b90b-9d2c60168a5d&#39;);
       const dataTable =
         await google.colab.kernel.invokeFunction(&#39;convertToInteractive&#39;,
                                                  [key], &#123;&#125;);
@@ -1627,12 +1642,12 @@
 <ul>
 <li>두개의 연속형 데이터</li>
 </ul>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sns.scatterplot(x = <span class="string">&#x27;total_bill&#x27;</span>, y = <span class="string">&#x27;tip&#x27;</span>, hue = <span class="string">&#x27;time&#x27;</span>, data = tips)</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sns.scatterplot(x = <span class="string">&#x27;total_bill&#x27;</span>, y = <span class="string">&#x27;tip&#x27;</span>, hue = <span class="string">&#x27;sex&#x27;</span>, data = tips)</span><br></pre></td></tr></table></figure>
 
 
 
 
-<pre><code>&lt;matplotlib.axes._subplots.AxesSubplot at 0x7f06d6d92750&gt;
+<pre><code>&lt;matplotlib.axes._subplots.AxesSubplot at 0x7fd6a0a59310&gt;
 </code></pre>
 <p><img src="/images/python_0706/output_31_1.png" alt="png"></p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 회귀선</span></span><br><span class="line">sns.regplot(x = <span class="string">&#x27;total_bill&#x27;</span>, y = <span class="string">&#x27;tip&#x27;</span>, data = tips)</span><br></pre></td></tr></table></figure>
@@ -1640,18 +1655,18 @@
 
 
 
-<pre><code>&lt;matplotlib.axes._subplots.AxesSubplot at 0x7f06d6fc7c10&gt;
+<pre><code>&lt;matplotlib.axes._subplots.AxesSubplot at 0x7fd6a09d0990&gt;
 </code></pre>
 <p><img src="/images/python_0706/output_32_1.png" alt="png"></p>
 <h2 id="머신러닝-리뷰"><a href="#머신러닝-리뷰" class="headerlink" title="머신러닝 리뷰"></a>머신러닝 리뷰</h2><ul>
-<li>가장 인기 있는 리뷰</li>
+<li>가장 인기 있는 모델 <ul>
+<li>LightGBM,. XGboost</li>
 </ul>
-<ul>
-<li>LighGBM,XGboost</li>
+</li>
 </ul>
 <h3 id="선형-회귀"><a href="#선형-회귀" class="headerlink" title="선형 회귀"></a>선형 회귀</h3><ul>
 <li>선형 회귀식을 찾는 것이 중요</li>
-<li>y&#x3D;3x+4에 근사한 데이터 50개 생성</li>
+<li>$y &#x3D; 3x + 4$에 근사한 데이터 50개 생성</li>
 </ul>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np </span><br><span class="line"><span class="keyword">import</span> pandas <span class="keyword">as</span> pd</span><br><span class="line"></span><br><span class="line"><span class="comment"># 시드값 고정 </span></span><br><span class="line">np.random.seed(<span class="number">0</span>)</span><br><span class="line">intercept = <span class="number">4</span> <span class="comment"># 절편, 상수</span></span><br><span class="line">slope = <span class="number">3</span> <span class="comment"># 기울기</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 변동성 주기 위해 노이즈 생성</span></span><br><span class="line">noise = np.random.randn(<span class="number">50</span>, <span class="number">1</span>)</span><br><span class="line">x = <span class="number">5</span> * np.random.rand(<span class="number">50</span>, <span class="number">1</span>) <span class="comment"># 0과 5사이의 실숫값 50개 생성</span></span><br><span class="line">y = slope * x + intercept + noise</span><br><span class="line"></span><br><span class="line"><span class="comment"># 데이터 프레임 생성</span></span><br><span class="line">data = pd.DataFrame(&#123;<span class="string">&#x27;X&#x27;</span> : x[:, <span class="number">0</span>], <span class="string">&#x27;Y&#x27;</span> : y[:, <span class="number">0</span>]&#125;)</span><br><span class="line"><span class="built_in">print</span>(data)</span><br></pre></td></tr></table></figure>
 
@@ -1716,22 +1731,23 @@
 
 
 
-<pre><code>&lt;matplotlib.axes._subplots.AxesSubplot at 0x7f06d5ad00d0&gt;
+<pre><code>&lt;matplotlib.axes._subplots.AxesSubplot at 0x7fd6a0949f90&gt;
 </code></pre>
 <p><img src="/images/python_0706/output_37_1.png" alt="png"></p>
 <h4 id="선형회귀-모형-훈련"><a href="#선형회귀-모형-훈련" class="headerlink" title="선형회귀 모형 훈련"></a>선형회귀 모형 훈련</h4><ul>
-<li>모형 생성 후, 회귀계수 3과 y 절편 4에 근사한 값이 나와야 함</li>
+<li>모형 생성 후, 회귀계수 3과 y절편 4에 근사한 값이 나와야 함</li>
 </ul>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> sklearn.linear_model <span class="keyword">import</span> LinearRegression</span><br><span class="line">lr_model = LinearRegression() <span class="comment"># 선형 회귀 모델</span></span><br><span class="line">lr_model.fit(x,y)</span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;y절편&#x27;</span>, lr_model.intercept_)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;회귀계수&#x27;</span>, lr_model.intercept_)</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> sklearn.linear_model <span class="keyword">import</span> LinearRegression </span><br><span class="line">lr_model = LinearRegression() <span class="comment"># 선형 회귀 모델 </span></span><br><span class="line">lr_model.fit(x, y) <span class="comment"># 모델 훈련</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;y절편:&#x27;</span>, lr_model.intercept_)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;회귀계수:&#x27;</span>, lr_model.coef_)</span><br></pre></td></tr></table></figure>
 
-<pre><code>y절편 [4.05757639]
-회귀계수 [4.05757639]
+<pre><code>y절편: [4.05757639]
+회귀계수: [[3.03754061]]
 </code></pre>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 예측값</span></span><br><span class="line">y_pred = lr_model.predict(x)</span><br><span class="line">fig, ax = plt.subplots()</span><br><span class="line">ax.scatter(x, y)</span><br><span class="line">ax.plot(x, y_pred, color=<span class="string">&#x27;green&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># slope, intercept </span></span><br><span class="line">label = <span class="string">&#x27;slope: &#123;&#125;\nintercept: &#123;&#125;&#x27;</span>.<span class="built_in">format</span>(<span class="built_in">round</span>(lr_model.coef_[<span class="number">0</span>][<span class="number">0</span>], <span class="number">2</span>), <span class="built_in">round</span>(lr_model.intercept_[<span class="number">0</span>], <span class="number">2</span>))</span><br><span class="line">ax.text(<span class="number">3.5</span>, <span class="number">4</span>, label, style =<span class="string">&#x27;italic&#x27;</span>, </span><br><span class="line">        fontsize = <span class="number">10</span>, color =<span class="string">&quot;green&quot;</span>)</span><br><span class="line">plt.show()</span><br></pre></td></tr></table></figure>
 
 
 <p><img src="/images/python_0706/output_40_0.png" alt="png"></p>
-<h3 id="로지스틱-회귀"><a href="#로지스틱-회귀" class="headerlink" title="로지스틱 회귀"></a>로지스틱 회귀</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"><span class="keyword">import</span> matplotlib.pyplot <span class="keyword">as</span> plt</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">sigmoid</span>(<span class="params">arr, scale=<span class="number">1</span></span>):</span><br><span class="line">    arr = np.asarray(arr)</span><br><span class="line">    result = <span class="number">1</span>/(<span class="number">1</span> + np.exp(-arr*scale))</span><br><span class="line">    <span class="keyword">return</span> result</span><br><span class="line"></span><br><span class="line">x = np.linspace(-<span class="number">6</span>, <span class="number">6</span>)</span><br><span class="line">y = sigmoid(x)</span><br><span class="line"></span><br><span class="line">fig, ax = plt.subplots()</span><br><span class="line">ax.plot(x, y)</span><br><span class="line">ax.grid(which=<span class="string">&#x27;major&#x27;</span>, axis=<span class="string">&#x27;y&#x27;</span>, linestyle=<span class="string">&#x27;--&#x27;</span>)</span><br><span class="line">ax.axvline(x=<span class="number">0</span>, color=<span class="string">&#x27;r&#x27;</span>, linestyle=<span class="string">&#x27;--&#x27;</span>, linewidth=<span class="number">1</span>)</span><br><span class="line">ax.set_ylim(<span class="number">0</span>,<span class="number">1</span>)</span><br><span class="line">ax.set_yticks([<span class="number">0</span>, <span class="number">1</span>, <span class="number">0.5</span>])</span><br><span class="line">ax.text(<span class="number">0</span>-<span class="number">0.1</span>, <span class="number">0.5</span>, <span class="string">&#x27;0.5&#x27;</span>, ha=<span class="string">&#x27;right&#x27;</span>)</span><br><span class="line">ax.set_title(<span class="string">&#x27;Sigmoid Graph&#x27;</span>)</span><br><span class="line">plt.show()</span><br></pre></td></tr></table></figure>
+<h3 id="로지스틱-회귀"><a href="#로지스틱-회귀" class="headerlink" title="로지스틱 회귀"></a>로지스틱 회귀</h3><p>- </p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"><span class="keyword">import</span> matplotlib.pyplot <span class="keyword">as</span> plt</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">sigmoid</span>(<span class="params">arr, scale=<span class="number">1</span></span>):</span><br><span class="line">    arr = np.asarray(arr)</span><br><span class="line">    result = <span class="number">1</span>/(<span class="number">1</span> + np.exp(-arr*scale))</span><br><span class="line">    <span class="keyword">return</span> result</span><br><span class="line"></span><br><span class="line">x = np.linspace(-<span class="number">6</span>, <span class="number">6</span>)</span><br><span class="line">y = sigmoid(x)</span><br><span class="line"></span><br><span class="line">fig, ax = plt.subplots()</span><br><span class="line">ax.plot(x, y)</span><br><span class="line">ax.grid(which=<span class="string">&#x27;major&#x27;</span>, axis=<span class="string">&#x27;y&#x27;</span>, linestyle=<span class="string">&#x27;--&#x27;</span>)</span><br><span class="line">ax.axvline(x=<span class="number">0</span>, color=<span class="string">&#x27;r&#x27;</span>, linestyle=<span class="string">&#x27;--&#x27;</span>, linewidth=<span class="number">1</span>)</span><br><span class="line">ax.set_ylim(<span class="number">0</span>,<span class="number">1</span>)</span><br><span class="line">ax.set_yticks([<span class="number">0</span>, <span class="number">1</span>, <span class="number">0.5</span>])</span><br><span class="line">ax.text(<span class="number">0</span>-<span class="number">0.1</span>, <span class="number">0.5</span>, <span class="string">&#x27;0.5&#x27;</span>, ha=<span class="string">&#x27;right&#x27;</span>)</span><br><span class="line">ax.set_title(<span class="string">&#x27;Sigmoid Graph&#x27;</span>)</span><br><span class="line">plt.show()</span><br></pre></td></tr></table></figure>
 
 
 <p><img src="/images/python_0706/output_42_0.png" alt="png"></p>
@@ -1742,11 +1758,7 @@
 
 <pre><code>LogisticRegression(C=10.0, random_state=0, solver=&#39;liblinear&#39;)
 </code></pre>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">fig, ax = plt.subplots()</span><br><span class="line">ax.scatter(x, y)</span><br><span class="line">ax.plot(x, p_pred[:, <span class="number">1</span>], color = <span class="string">&#x27;black&#x27;</span>,  marker=<span class="string">&#x27;o&#x27;</span>, markersize=<span class="number">6</span>)</span><br><span class="line">ax.plot()</span><br><span class="line"></span><br><span class="line">ax.set_xticks(x)</span><br><span class="line">ax.set_yticks(np.arange(<span class="number">0</span>, <span class="number">1.1</span>, <span class="number">0.1</span>))</span><br><span class="line"></span><br><span class="line">ax.grid(which=<span class="string">&#x27;major&#x27;</span>, alpha=<span class="number">0.5</span>)</span><br><span class="line">plt.show()</span><br></pre></td></tr></table></figure>
-
-
-<p><img src="/images/python_0706/output_44_0.png" alt="png"></p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 모형 평가</span></span><br><span class="line">p_pred = model.predict_proba(x)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;p_pred&#x27;</span>, p_pred, sep= <span class="string">&#x27;\n&#x27;</span>)</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 모형 평가</span></span><br><span class="line">p_pred = model.predict_proba(x)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;p_pred&#x27;</span>, p_pred, sep = <span class="string">&#x27;\n&#x27;</span>)</span><br></pre></td></tr></table></figure>
 
 <pre><code>p_pred
 [[0.97979027 0.02020973]
@@ -1760,12 +1772,29 @@
  [0.02453462 0.97546538]
  [0.00967652 0.99032348]]
 </code></pre>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">y_pred = model.predict(x)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;y_pred&#x27;</span>, y_pred)</span><br></pre></td></tr></table></figure>
+
+<pre><code>y_pred [0 0 0 0 0 1 1 1 1 1]
+</code></pre>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">fig, ax = plt.subplots()</span><br><span class="line">ax.scatter(x, y)</span><br><span class="line">ax.plot(x, p_pred[:, <span class="number">1</span>], color = <span class="string">&#x27;black&#x27;</span>,  marker=<span class="string">&#x27;o&#x27;</span>, markersize=<span class="number">6</span>)</span><br><span class="line">ax.plot()</span><br><span class="line"></span><br><span class="line">ax.set_xticks(x)</span><br><span class="line">ax.set_yticks(np.arange(<span class="number">0</span>, <span class="number">1.1</span>, <span class="number">0.1</span>))</span><br><span class="line"></span><br><span class="line">ax.grid(which=<span class="string">&#x27;major&#x27;</span>, alpha=<span class="number">0.5</span>)</span><br><span class="line">plt.show()</span><br></pre></td></tr></table></figure>
+
+
+<p><img src="/images/python_0706/output_46_0.png" alt="png"></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">conf_m = confusion_matrix(y, y_pred)</span><br><span class="line"><span class="built_in">print</span>(conf_m)</span><br></pre></td></tr></table></figure>
+
+<pre><code>[[5 0]
+ [0 5]]
+</code></pre>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">cm = confusion_matrix(y, y_pred)</span><br><span class="line"></span><br><span class="line">fig, ax = plt.subplots(figsize=(<span class="number">8</span>, <span class="number">8</span>))</span><br><span class="line">ax.imshow(cm, cmap = <span class="string">&#x27;GnBu&#x27;</span>)</span><br><span class="line">ax.grid(<span class="literal">False</span>)</span><br><span class="line">ax.xaxis.<span class="built_in">set</span>(ticks=(<span class="number">0</span>, <span class="number">1</span>), ticklabels=(<span class="string">&#x27;Predicted 0&#x27;</span>, <span class="string">&#x27;Predicted 1&#x27;</span>))</span><br><span class="line">ax.yaxis.<span class="built_in">set</span>(ticks=(<span class="number">0</span>, <span class="number">1</span>), ticklabels=(<span class="string">&#x27;Actual 0&#x27;</span>, <span class="string">&#x27;Actual 1&#x27;</span>))</span><br><span class="line">ax.set_ylim(<span class="number">1.5</span>, -<span class="number">0.5</span>)</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">2</span>):</span><br><span class="line">    <span class="keyword">for</span> j <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">2</span>):</span><br><span class="line">        ax.text(j, i, cm[i, j], ha=<span class="string">&#x27;center&#x27;</span>, va=<span class="string">&#x27;center&#x27;</span>, color=<span class="string">&#x27;black&#x27;</span>, fontsize=<span class="number">20</span>)</span><br><span class="line">plt.show()</span><br></pre></td></tr></table></figure>
+
+
+<p><img src="/images/python_0706/output_48_0.png" alt="png"></p>
 <h3 id="결정-트리"><a href="#결정-트리" class="headerlink" title="결정 트리"></a>결정 트리</h3><ul>
 <li>분류와 회귀 문제에 모두 사용 가능</li>
 </ul>
-<h3 id="주요-개념"><a href="#주요-개념" class="headerlink" title="주요 개념"></a>주요 개념</h3><ul>
+<h4 id="주요-개념"><a href="#주요-개념" class="headerlink" title="주요 개념"></a>주요 개념</h4><ul>
 <li>작동 원리<ul>
-<li>데이터를 가장 잘 구분하는 조건을 정함.</li>
+<li>데이터를 가장 잘 구분하는 조건을 정함. </li>
 <li>조건을 기준으로 데이터를 두 범주로 나눔</li>
 <li>나뉜 각 범주의 데이터를 구분하는 조건을 정함</li>
 <li>각 조건을 기준으로 데이터를 두 범주로 나눔</li>
@@ -1779,7 +1808,7 @@
 </ul>
 </li>
 <li>엔트로피(Entropy)<ul>
-<li>불확실한 정도를 의미함. 0 ~ 1로 정함.</li>
+<li>불확실한 정도를 의미함. 0 ~ 1로 정함. </li>
 <li>흰색과 검은색이 50:50으로 섞여 있다. 엔트로피 1</li>
 <li>흰색과 검은색으로 완전 분리 되었다. 엔트로피 0</li>
 </ul>
@@ -1820,11 +1849,11 @@ dtypes: bool(2), category(2), float64(2), int64(4), object(5)
 memory usage: 80.7+ KB
 </code></pre>
 <ul>
-<li>survived의 비율을 구한다.</li>
+<li>survived의 비율을 구한다. <ul>
+<li>0: 사망자</li>
+<li>1: 생존자</li>
 </ul>
-<ul>
-<li>0:사망자</li>
-<li>1:생존자</li>
+</li>
 </ul>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">titanic[<span class="string">&#x27;survived&#x27;</span>].value_counts()</span><br></pre></td></tr></table></figure>
 
@@ -1850,88 +1879,341 @@ Name: survived, dtype: int64
 
 <pre><code>모형 정확도 : 0.675
 </code></pre>
-<h2 id="XGBoost-amp-LightGBM"><a href="#XGBoost-amp-LightGBM" class="headerlink" title="XGBoost &amp; LightGBM"></a>XGBoost &amp; LightGBM</h2><ul>
-<li>전통적인 머신러닝 알고리즘의 융합</li>
-</ul>
-<ul>
+<h2 id="XGBoost-amp-LightGBM-2016-2017"><a href="#XGBoost-amp-LightGBM-2016-2017" class="headerlink" title="XGBoost &amp; LightGBM (2016 ~ 2017)"></a>XGBoost &amp; LightGBM (2016 ~ 2017)</h2><ul>
+<li>전통적인 머선러닝 알고리즘의 융합<ul>
 <li>선형회귀 릿지 라쏘, 과적합 방지 위한 규제</li>
 <li>결정 트리의 핵심적인 알고리즘</li>
-<li>경사 하강법</li>
+<li>경사 하강법 </li>
 <li>부스팅 기법</li>
 </ul>
-<ul>
-<li>문제점 : 파라미터의 개수가 매우 많음.</li>
-<li>왜 많이 쓸까요?</li>
-</ul>
-<ul>
+</li>
+<li>문제점 : 파라미터의 개수가 매우 많음. </li>
+<li>왜 많이 쓸까요?<ul>
 <li>모델 학습 속도</li>
 <li>성능</li>
-<li>가장 좋은 모델이랑, 학습 속도는 바르면서 성능은 좋은 것.(지금까지 나온 알고리즘 보다.)</li>
+<li>가장 좋은 모델이란, 학습 속도는 빠르면서 성능은 좋은 것 (지금까지 나온 알고리즘 보다)</li>
 </ul>
-<ul>
-<li>Python,</li>
-</ul>
-<ul>
+</li>
+<li>Python<ul>
 <li>JAVA, C, C++</li>
 <li>C, C++ &#x2F; r data.table 패키지</li>
 </ul>
-<ul>
-<li>큰 회사들 개발</li>
+</li>
+<li>큰 회사들 개발<ul>
+<li>첫번째 옵션, 우리가 자체적으로 배포하자. –&gt; Python Wrapper API <ul>
+<li>R, 머신러닝 프레임워크 종류 다양</li>
 </ul>
-<ul>
-<li>첫번째 옵션, 우리가 자체적으로 배포하자 –&gt; Python Wrapper API</li>
+</li>
+<li>두번째 옵션 파이썬 머신러닝 &#x3D; Scikit-Learn에서 쉽게 쓸 수 있도록 개발, Scikit-Learn Wrapper API</li>
 </ul>
-<ul>
-<li>R, 머신러닝 프레임워크 종류</li>
+</li>
 </ul>
-<ul>
-<li>파이썬 머신러닝 &#x3D; Scikit-Learn에서 쉽게 쓸 수 있도록 개발,Scikit-Learn Wrapper API</li>
-</ul>
-<h2 id="PythonWrapper-방식"><a href="#PythonWrapper-방식" class="headerlink" title="PythonWrapper 방식"></a>PythonWrapper 방식</h2><ul>
-<li>X_train,y_train</li>
-<li>각 모듈에 맞도록 행렬을 재변환 해야 함</li>
+<h3 id="XGBoost-Python-Wrapper-방식"><a href="#XGBoost-Python-Wrapper-방식" class="headerlink" title="XGBoost Python Wrapper 방식"></a>XGBoost Python Wrapper 방식</h3><ul>
+<li>X_train, y_train </li>
+<li>각 모듈에 맞도록 행렬을 재변환 해야 함.</li>
 </ul>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> xgboost <span class="keyword">as</span> xgb </span><br><span class="line"><span class="keyword">from</span> sklearn.model_selection <span class="keyword">import</span> train_test_split</span><br><span class="line"><span class="keyword">import</span> seaborn <span class="keyword">as</span> sns </span><br><span class="line"></span><br><span class="line"><span class="comment"># 데이터 분리</span></span><br><span class="line">titanic = sns.load_dataset(<span class="string">&#x27;titanic&#x27;</span>)</span><br><span class="line"><span class="comment"># titanic.info()</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># X, 독립변수, y 종속변수</span></span><br><span class="line">X = titanic[[<span class="string">&#x27;pclass&#x27;</span>, <span class="string">&#x27;parch&#x27;</span>, <span class="string">&#x27;fare&#x27;</span>]]</span><br><span class="line">y = titanic[<span class="string">&#x27;survived&#x27;</span>]</span><br><span class="line"></span><br><span class="line"><span class="comment"># 훈련데이터, 테스트 데이터 분리</span></span><br><span class="line">X_train, X_test, y_train, y_test = train_test_split(X, </span><br><span class="line">                                                    y, </span><br><span class="line">                                                    stratify = y, </span><br><span class="line">                                                    test_size = <span class="number">0.3</span>, </span><br><span class="line">                                                    random_state=<span class="number">42</span>)</span><br><span class="line"></span><br><span class="line">X_train.shape, X_test.shape, y_train.shape, y_test.shape</span><br></pre></td></tr></table></figure>
 
+<pre><code>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
+RangeIndex: 891 entries, 0 to 890
+Data columns (total 15 columns):
+ #   Column       Non-Null Count  Dtype   
+---  ------       --------------  -----   
+ 0   survived     891 non-null    int64   
+ 1   pclass       891 non-null    int64   
+ 2   sex          891 non-null    object  
+ 3   age          714 non-null    float64 
+ 4   sibsp        891 non-null    int64   
+ 5   parch        891 non-null    int64   
+ 6   fare         891 non-null    float64 
+ 7   embarked     889 non-null    object  
+ 8   class        891 non-null    category
+ 9   who          891 non-null    object  
+ 10  adult_male   891 non-null    bool    
+ 11  deck         203 non-null    category
+ 12  embark_town  889 non-null    object  
+ 13  alive        891 non-null    object  
+ 14  alone        891 non-null    bool    
+dtypes: bool(2), category(2), float64(2), int64(4), object(5)
+memory usage: 80.7+ KB
 
 
 
-<pre><code>((623, 3), (268, 3), (623,), (268,))
+
+
+((623, 3), (268, 3), (623,), (268,))
 </code></pre>
 <ul>
 <li>여기가 핵심</li>
 </ul>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">dtrain = xgb.DMatrix(data = X_train, label = y_train)</span><br><span class="line">dtest = xgb.DMatrix(data= X_test, label = y_test)</span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span>(dtrain)</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">dtrain = xgb.DMatrix(data = X_train, label = y_train)</span><br><span class="line">dtest = xgb.DMatrix(data = X_test, label = y_test)</span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span>(dtrain)</span><br></pre></td></tr></table></figure>
 
-<pre><code>&lt;xgboost.core.DMatrix object at 0x7f448f97eb50&gt;
+<pre><code>&lt;xgboost.core.DMatrix object at 0x7f179de8fb10&gt;
 </code></pre>
 <ul>
 <li>머신러닝 코드</li>
 </ul>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># xgb.train</span></span><br><span class="line"></span><br><span class="line">params = &#123;</span><br><span class="line">    <span class="string">&#x27;max_depth&#x27;</span> : <span class="number">3</span>,</span><br><span class="line">    <span class="string">&#x27;n_estimators&#x27;</span> : <span class="number">100</span>,</span><br><span class="line">    <span class="string">&#x27;eta&#x27;</span> : <span class="number">0.1</span>,</span><br><span class="line">    <span class="string">&#x27;objective&#x27;</span> : <span class="string">&#x27;binary:logistic&#x27;</span></span><br><span class="line">  </span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">xgb_ml = xgb.train(params = params, dtrain = dtrain)</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">params = &#123;</span><br><span class="line">    <span class="string">&#x27;max_depth&#x27;</span> : <span class="number">3</span>, </span><br><span class="line">    <span class="string">&#x27;n_estimators&#x27;</span> : <span class="number">100</span>, </span><br><span class="line">    <span class="string">&#x27;eta&#x27;</span> : <span class="number">0.1</span>, </span><br><span class="line">    <span class="string">&#x27;objective&#x27;</span> : <span class="string">&#x27;binary:logistic&#x27;</span></span><br><span class="line">&#125;</span><br><span class="line">num_rounds = <span class="number">400</span></span><br><span class="line"></span><br><span class="line">w_list = [(dtrain, <span class="string">&#x27;train&#x27;</span>), (dtest, <span class="string">&#x27;test&#x27;</span>)]</span><br><span class="line">xgb_ml = xgb.train(params = params, </span><br><span class="line">                   dtrain = dtrain, </span><br><span class="line">                   num_boost_round = <span class="number">400</span>, </span><br><span class="line">                   early_stopping_rounds = <span class="number">100</span>, </span><br><span class="line">                   evals = w_list)</span><br></pre></td></tr></table></figure>
 
+<pre><code>[0]	train-error:0.260032	test-error:0.302239
+Multiple eval metrics have been passed: &#39;test-error&#39; will be used for early stopping.
 
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 평가</span></span><br><span class="line"><span class="keyword">from</span> sklearn.metrics <span class="keyword">import</span> accuracy_score</span><br><span class="line">pred_probs = xgb_ml.predict(dtest)</span><br><span class="line">y_pred = [<span class="number">1</span> <span class="keyword">if</span> x &gt; <span class="number">0.5</span> <span class="keyword">else</span> <span class="number">0</span> <span class="keyword">for</span> x <span class="keyword">in</span> pred_probs]</span><br><span class="line"></span><br><span class="line">accuracy_score(y_pred, y_test)</span><br></pre></td></tr></table></figure>
+Will train until test-error hasn&#39;t improved in 100 rounds.
+[1]	train-error:0.260032	test-error:0.302239
+[2]	train-error:0.260032	test-error:0.302239
+[3]	train-error:0.260032	test-error:0.302239
+[4]	train-error:0.260032	test-error:0.302239
+[5]	train-error:0.260032	test-error:0.302239
+[6]	train-error:0.260032	test-error:0.302239
+[7]	train-error:0.260032	test-error:0.302239
+[8]	train-error:0.260032	test-error:0.302239
+[9]	train-error:0.260032	test-error:0.302239
+[10]	train-error:0.260032	test-error:0.302239
+[11]	train-error:0.260032	test-error:0.302239
+[12]	train-error:0.260032	test-error:0.302239
+[13]	train-error:0.247191	test-error:0.298507
+[14]	train-error:0.247191	test-error:0.298507
+[15]	train-error:0.248796	test-error:0.302239
+[16]	train-error:0.248796	test-error:0.302239
+[17]	train-error:0.248796	test-error:0.302239
+[18]	train-error:0.248796	test-error:0.302239
+[19]	train-error:0.248796	test-error:0.302239
+[20]	train-error:0.248796	test-error:0.302239
+[21]	train-error:0.248796	test-error:0.302239
+[22]	train-error:0.248796	test-error:0.302239
+[23]	train-error:0.248796	test-error:0.302239
+[24]	train-error:0.248796	test-error:0.302239
+[25]	train-error:0.248796	test-error:0.302239
+[26]	train-error:0.248796	test-error:0.302239
+[27]	train-error:0.248796	test-error:0.302239
+[28]	train-error:0.247191	test-error:0.302239
+[29]	train-error:0.247191	test-error:0.302239
+[30]	train-error:0.247191	test-error:0.302239
+[31]	train-error:0.243981	test-error:0.298507
+[32]	train-error:0.247191	test-error:0.302239
+[33]	train-error:0.243981	test-error:0.298507
+[34]	train-error:0.243981	test-error:0.298507
+[35]	train-error:0.242376	test-error:0.294776
+[36]	train-error:0.24077	test-error:0.294776
+[37]	train-error:0.24077	test-error:0.294776
+[38]	train-error:0.24077	test-error:0.294776
+[39]	train-error:0.24077	test-error:0.294776
+[40]	train-error:0.24077	test-error:0.294776
+[41]	train-error:0.24077	test-error:0.294776
+[42]	train-error:0.24077	test-error:0.294776
+[43]	train-error:0.24077	test-error:0.294776
+[44]	train-error:0.24077	test-error:0.302239
+[45]	train-error:0.24077	test-error:0.302239
+[46]	train-error:0.24077	test-error:0.302239
+[47]	train-error:0.24077	test-error:0.302239
+[48]	train-error:0.24077	test-error:0.302239
+[49]	train-error:0.24077	test-error:0.302239
+[50]	train-error:0.24077	test-error:0.302239
+[51]	train-error:0.24077	test-error:0.302239
+[52]	train-error:0.23435	test-error:0.302239
+[53]	train-error:0.23435	test-error:0.302239
+[54]	train-error:0.232745	test-error:0.298507
+[55]	train-error:0.229535	test-error:0.298507
+[56]	train-error:0.229535	test-error:0.298507
+[57]	train-error:0.229535	test-error:0.298507
+[58]	train-error:0.229535	test-error:0.298507
+[59]	train-error:0.227929	test-error:0.294776
+[60]	train-error:0.227929	test-error:0.298507
+[61]	train-error:0.227929	test-error:0.298507
+[62]	train-error:0.227929	test-error:0.298507
+[63]	train-error:0.227929	test-error:0.298507
+[64]	train-error:0.227929	test-error:0.298507
+[65]	train-error:0.227929	test-error:0.298507
+[66]	train-error:0.227929	test-error:0.298507
+[67]	train-error:0.227929	test-error:0.298507
+[68]	train-error:0.227929	test-error:0.298507
+[69]	train-error:0.227929	test-error:0.298507
+[70]	train-error:0.227929	test-error:0.298507
+[71]	train-error:0.227929	test-error:0.298507
+[72]	train-error:0.227929	test-error:0.302239
+[73]	train-error:0.227929	test-error:0.302239
+[74]	train-error:0.229535	test-error:0.30597
+[75]	train-error:0.229535	test-error:0.30597
+[76]	train-error:0.229535	test-error:0.30597
+[77]	train-error:0.229535	test-error:0.30597
+[78]	train-error:0.229535	test-error:0.30597
+[79]	train-error:0.229535	test-error:0.30597
+[80]	train-error:0.229535	test-error:0.30597
+[81]	train-error:0.229535	test-error:0.30597
+[82]	train-error:0.229535	test-error:0.30597
+[83]	train-error:0.229535	test-error:0.30597
+[84]	train-error:0.229535	test-error:0.30597
+[85]	train-error:0.229535	test-error:0.30597
+[86]	train-error:0.229535	test-error:0.30597
+[87]	train-error:0.229535	test-error:0.30597
+[88]	train-error:0.229535	test-error:0.30597
+[89]	train-error:0.229535	test-error:0.30597
+[90]	train-error:0.229535	test-error:0.30597
+[91]	train-error:0.229535	test-error:0.30597
+[92]	train-error:0.229535	test-error:0.30597
+[93]	train-error:0.229535	test-error:0.30597
+[94]	train-error:0.227929	test-error:0.313433
+[95]	train-error:0.226324	test-error:0.313433
+[96]	train-error:0.223114	test-error:0.317164
+[97]	train-error:0.223114	test-error:0.317164
+[98]	train-error:0.223114	test-error:0.317164
+[99]	train-error:0.223114	test-error:0.317164
+[100]	train-error:0.223114	test-error:0.317164
+[101]	train-error:0.223114	test-error:0.317164
+[102]	train-error:0.223114	test-error:0.317164
+[103]	train-error:0.223114	test-error:0.317164
+[104]	train-error:0.223114	test-error:0.317164
+[105]	train-error:0.223114	test-error:0.317164
+[106]	train-error:0.223114	test-error:0.317164
+[107]	train-error:0.223114	test-error:0.317164
+[108]	train-error:0.223114	test-error:0.317164
+[109]	train-error:0.223114	test-error:0.317164
+[110]	train-error:0.223114	test-error:0.317164
+[111]	train-error:0.223114	test-error:0.317164
+[112]	train-error:0.223114	test-error:0.317164
+[113]	train-error:0.223114	test-error:0.317164
+[114]	train-error:0.223114	test-error:0.317164
+[115]	train-error:0.223114	test-error:0.317164
+[116]	train-error:0.223114	test-error:0.317164
+[117]	train-error:0.223114	test-error:0.317164
+[118]	train-error:0.223114	test-error:0.317164
+[119]	train-error:0.223114	test-error:0.317164
+[120]	train-error:0.223114	test-error:0.317164
+[121]	train-error:0.223114	test-error:0.317164
+[122]	train-error:0.223114	test-error:0.317164
+[123]	train-error:0.223114	test-error:0.317164
+[124]	train-error:0.224719	test-error:0.317164
+[125]	train-error:0.224719	test-error:0.317164
+[126]	train-error:0.224719	test-error:0.317164
+[127]	train-error:0.221509	test-error:0.317164
+[128]	train-error:0.223114	test-error:0.317164
+[129]	train-error:0.219904	test-error:0.313433
+[130]	train-error:0.215088	test-error:0.313433
+[131]	train-error:0.215088	test-error:0.313433
+[132]	train-error:0.215088	test-error:0.313433
+[133]	train-error:0.215088	test-error:0.313433
+[134]	train-error:0.215088	test-error:0.313433
+[135]	train-error:0.215088	test-error:0.313433
+Stopping. Best iteration:
+[35]	train-error:0.242376	test-error:0.294776
+</code></pre>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 평가</span></span><br><span class="line"><span class="keyword">from</span> sklearn.metrics <span class="keyword">import</span> accuracy_score</span><br><span class="line">pred_probs = xgb_ml.predict(dtest) </span><br><span class="line">y_pred = [<span class="number">1</span> <span class="keyword">if</span> x &gt; <span class="number">0.5</span> <span class="keyword">else</span> <span class="number">0</span> <span class="keyword">for</span> x <span class="keyword">in</span> pred_probs]</span><br><span class="line"></span><br><span class="line"><span class="comment"># 예측 라벨과 실제 라벨 사이의 정확도 측정</span></span><br><span class="line">accuracy_score(y_pred, y_test)</span><br></pre></td></tr></table></figure>
 
 
 
 
 <pre><code>0.6977611940298507
 </code></pre>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">params = &#123;</span><br><span class="line">    <span class="string">&#x27;max_depth&#x27;</span> : <span class="number">3</span>, </span><br><span class="line">    <span class="string">&#x27;n_estimators&#x27;</span> : <span class="number">100</span>, </span><br><span class="line">    <span class="string">&#x27;eta&#x27;</span> : <span class="number">0.1</span>, </span><br><span class="line">    <span class="string">&#x27;objective&#x27;</span> : <span class="string">&#x27;binary:logistic&#x27;</span></span><br><span class="line">&#125;</span><br><span class="line">num_rounds = <span class="number">400</span></span><br><span class="line"></span><br><span class="line">w_list = [(dtrain, <span class="string">&#x27;train&#x27;</span>), (dtest, <span class="string">&#x27;test&#x27;</span>)]</span><br><span class="line">xgb_ml = xgb.train(params = params, </span><br><span class="line">                   dtrain = dtrain, </span><br><span class="line">                   num_boost_round = <span class="number">400</span>, </span><br><span class="line">                   early_stopping_rounds = <span class="number">100</span>, </span><br><span class="line">                   evals = w_list)</span><br></pre></td></tr></table></figure>
+<h3 id="XGBoost-Scikit-Learn-API-방식"><a href="#XGBoost-Scikit-Learn-API-방식" class="headerlink" title="XGBoost Scikit-Learn API 방식"></a>XGBoost Scikit-Learn API 방식</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> sklearn.tree <span class="keyword">import</span> DecisionTreeClassifier</span><br><span class="line"><span class="keyword">from</span> xgboost <span class="keyword">import</span> XGBClassifier <span class="comment"># API </span></span><br><span class="line"></span><br><span class="line"><span class="comment"># dt = DecisionTreeClassifier()</span></span><br><span class="line">xgb_model = XGBClassifier(objective = <span class="string">&#x27;binary:logistic&#x27;</span>, </span><br><span class="line">                          n_estimators=<span class="number">100</span>, </span><br><span class="line">                          max_depth=<span class="number">3</span>, </span><br><span class="line">                          learning_rate = <span class="number">0.1</span>, </span><br><span class="line">                          num_rounds = <span class="number">400</span>,</span><br><span class="line">                          random_state=<span class="number">42</span>)</span><br><span class="line"></span><br><span class="line">w_list = [(X_train, y_train), (X_test, y_test)]</span><br><span class="line"></span><br><span class="line">xgb_model.fit(X_train, y_train, eval_set = w_list, eval_metric=<span class="string">&#x27;error&#x27;</span>, verbose=<span class="literal">True</span>)</span><br><span class="line"></span><br><span class="line">y_probas = xgb_model.predict_proba(X_test)</span><br><span class="line">y_pred = [<span class="number">1</span> <span class="keyword">if</span> x &gt; <span class="number">0.5</span> <span class="keyword">else</span> <span class="number">0</span> <span class="keyword">for</span> x <span class="keyword">in</span> pred_probs]</span><br><span class="line"></span><br><span class="line"><span class="comment"># 예측 라벨과 실제 라벨 사이의 정확도 측정</span></span><br><span class="line">accuracy_score(y_pred, y_test)</span><br></pre></td></tr></table></figure>
+
+<pre><code>[0]	validation_0-error:0.260032	validation_1-error:0.302239
+[1]	validation_0-error:0.260032	validation_1-error:0.302239
+[2]	validation_0-error:0.260032	validation_1-error:0.302239
+[3]	validation_0-error:0.260032	validation_1-error:0.302239
+[4]	validation_0-error:0.260032	validation_1-error:0.302239
+[5]	validation_0-error:0.260032	validation_1-error:0.302239
+[6]	validation_0-error:0.260032	validation_1-error:0.302239
+[7]	validation_0-error:0.260032	validation_1-error:0.302239
+[8]	validation_0-error:0.260032	validation_1-error:0.302239
+[9]	validation_0-error:0.260032	validation_1-error:0.302239
+[10]	validation_0-error:0.260032	validation_1-error:0.302239
+[11]	validation_0-error:0.260032	validation_1-error:0.302239
+[12]	validation_0-error:0.260032	validation_1-error:0.302239
+[13]	validation_0-error:0.247191	validation_1-error:0.298507
+[14]	validation_0-error:0.247191	validation_1-error:0.298507
+[15]	validation_0-error:0.248796	validation_1-error:0.302239
+[16]	validation_0-error:0.248796	validation_1-error:0.302239
+[17]	validation_0-error:0.248796	validation_1-error:0.302239
+[18]	validation_0-error:0.248796	validation_1-error:0.302239
+[19]	validation_0-error:0.248796	validation_1-error:0.302239
+[20]	validation_0-error:0.248796	validation_1-error:0.302239
+[21]	validation_0-error:0.248796	validation_1-error:0.302239
+[22]	validation_0-error:0.248796	validation_1-error:0.302239
+[23]	validation_0-error:0.248796	validation_1-error:0.302239
+[24]	validation_0-error:0.248796	validation_1-error:0.302239
+[25]	validation_0-error:0.248796	validation_1-error:0.302239
+[26]	validation_0-error:0.248796	validation_1-error:0.302239
+[27]	validation_0-error:0.248796	validation_1-error:0.302239
+[28]	validation_0-error:0.247191	validation_1-error:0.302239
+[29]	validation_0-error:0.247191	validation_1-error:0.302239
+[30]	validation_0-error:0.247191	validation_1-error:0.302239
+[31]	validation_0-error:0.243981	validation_1-error:0.298507
+[32]	validation_0-error:0.247191	validation_1-error:0.302239
+[33]	validation_0-error:0.243981	validation_1-error:0.298507
+[34]	validation_0-error:0.243981	validation_1-error:0.298507
+[35]	validation_0-error:0.242376	validation_1-error:0.294776
+[36]	validation_0-error:0.24077	validation_1-error:0.294776
+[37]	validation_0-error:0.24077	validation_1-error:0.294776
+[38]	validation_0-error:0.24077	validation_1-error:0.294776
+[39]	validation_0-error:0.24077	validation_1-error:0.294776
+[40]	validation_0-error:0.24077	validation_1-error:0.294776
+[41]	validation_0-error:0.24077	validation_1-error:0.294776
+[42]	validation_0-error:0.24077	validation_1-error:0.294776
+[43]	validation_0-error:0.24077	validation_1-error:0.294776
+[44]	validation_0-error:0.24077	validation_1-error:0.302239
+[45]	validation_0-error:0.24077	validation_1-error:0.302239
+[46]	validation_0-error:0.24077	validation_1-error:0.302239
+[47]	validation_0-error:0.24077	validation_1-error:0.302239
+[48]	validation_0-error:0.24077	validation_1-error:0.302239
+[49]	validation_0-error:0.24077	validation_1-error:0.302239
+[50]	validation_0-error:0.24077	validation_1-error:0.302239
+[51]	validation_0-error:0.24077	validation_1-error:0.302239
+[52]	validation_0-error:0.23435	validation_1-error:0.302239
+[53]	validation_0-error:0.23435	validation_1-error:0.302239
+[54]	validation_0-error:0.232745	validation_1-error:0.298507
+[55]	validation_0-error:0.229535	validation_1-error:0.298507
+[56]	validation_0-error:0.229535	validation_1-error:0.298507
+[57]	validation_0-error:0.229535	validation_1-error:0.298507
+[58]	validation_0-error:0.229535	validation_1-error:0.298507
+[59]	validation_0-error:0.227929	validation_1-error:0.294776
+[60]	validation_0-error:0.227929	validation_1-error:0.298507
+[61]	validation_0-error:0.227929	validation_1-error:0.298507
+[62]	validation_0-error:0.227929	validation_1-error:0.298507
+[63]	validation_0-error:0.227929	validation_1-error:0.298507
+[64]	validation_0-error:0.227929	validation_1-error:0.298507
+[65]	validation_0-error:0.227929	validation_1-error:0.298507
+[66]	validation_0-error:0.227929	validation_1-error:0.298507
+[67]	validation_0-error:0.227929	validation_1-error:0.298507
+[68]	validation_0-error:0.227929	validation_1-error:0.298507
+[69]	validation_0-error:0.227929	validation_1-error:0.298507
+[70]	validation_0-error:0.227929	validation_1-error:0.298507
+[71]	validation_0-error:0.227929	validation_1-error:0.298507
+[72]	validation_0-error:0.227929	validation_1-error:0.302239
+[73]	validation_0-error:0.227929	validation_1-error:0.302239
+[74]	validation_0-error:0.229535	validation_1-error:0.30597
+[75]	validation_0-error:0.229535	validation_1-error:0.30597
+[76]	validation_0-error:0.229535	validation_1-error:0.30597
+[77]	validation_0-error:0.229535	validation_1-error:0.30597
+[78]	validation_0-error:0.229535	validation_1-error:0.30597
+[79]	validation_0-error:0.229535	validation_1-error:0.30597
+[80]	validation_0-error:0.229535	validation_1-error:0.30597
+[81]	validation_0-error:0.229535	validation_1-error:0.30597
+[82]	validation_0-error:0.229535	validation_1-error:0.30597
+[83]	validation_0-error:0.229535	validation_1-error:0.30597
+[84]	validation_0-error:0.229535	validation_1-error:0.30597
+[85]	validation_0-error:0.229535	validation_1-error:0.30597
+[86]	validation_0-error:0.229535	validation_1-error:0.30597
+[87]	validation_0-error:0.229535	validation_1-error:0.30597
+[88]	validation_0-error:0.229535	validation_1-error:0.30597
+[89]	validation_0-error:0.229535	validation_1-error:0.30597
+[90]	validation_0-error:0.229535	validation_1-error:0.30597
+[91]	validation_0-error:0.229535	validation_1-error:0.30597
+[92]	validation_0-error:0.229535	validation_1-error:0.30597
+[93]	validation_0-error:0.229535	validation_1-error:0.30597
+[94]	validation_0-error:0.227929	validation_1-error:0.313433
+[95]	validation_0-error:0.226324	validation_1-error:0.313433
+[96]	validation_0-error:0.223114	validation_1-error:0.317164
+[97]	validation_0-error:0.223114	validation_1-error:0.317164
+[98]	validation_0-error:0.223114	validation_1-error:0.317164
+[99]	validation_0-error:0.223114	validation_1-error:0.317164
 
 
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 평가</span></span><br><span class="line"><span class="keyword">from</span> sklearn.metrics <span class="keyword">import</span> accuracy_score</span><br><span class="line">pred_probs = xgb_ml.predict(dtest) </span><br><span class="line">y_pred = [<span class="number">1</span> <span class="keyword">if</span> x &gt; <span class="number">0.5</span> <span class="keyword">else</span> <span class="number">0</span> <span class="keyword">for</span> x <span class="keyword">in</span> pred_probs]</span><br><span class="line"></span><br><span class="line"><span class="comment"># 예측 라벨과 실제 라벨 사이의 정확도 측정</span></span><br><span class="line">accuracy_score(y_pred, y_test)</span><br></pre></td></tr></table></figure>
 
 
 
-
-<pre><code>0.6865671641791045
+0.6977611940298507
 </code></pre>
-<h4 id="scikit-Learn-API"><a href="#scikit-Learn-API" class="headerlink" title="scikit-Learn API"></a>scikit-Learn API</h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> sklearn.tree <span class="keyword">import</span> DecisionTreeClassifier</span><br><span class="line"><span class="keyword">from</span> xgboost <span class="keyword">import</span> XGBClassifier <span class="comment"># API </span></span><br><span class="line"></span><br><span class="line"><span class="comment"># dt = DecisionTreeClassifier()</span></span><br><span class="line">xgb_model = XGBClassifier(objective = <span class="string">&#x27;binary:logistic&#x27;</span>, </span><br><span class="line">                          n_estimators=<span class="number">100</span>, </span><br><span class="line">                          max_depth=<span class="number">3</span>, </span><br><span class="line">                          learning_rate = <span class="number">0.1</span>, </span><br><span class="line">                          num_rounds = <span class="number">400</span>,</span><br><span class="line">                          random_state=<span class="number">42</span>)</span><br><span class="line"></span><br><span class="line">w_list = [(X_train, y_train), (X_test, y_test)]</span><br><span class="line"></span><br><span class="line">xgb_model.fit(X_train, y_train, eval_set = w_list, eval_metric=<span class="string">&#x27;error&#x27;</span>, verbose=<span class="literal">True</span>)</span><br><span class="line"></span><br><span class="line">y_probas = xgb_model.predict_proba(X_test)</span><br><span class="line">y_pred = [<span class="number">1</span> <span class="keyword">if</span> x &gt; <span class="number">0.5</span> <span class="keyword">else</span> <span class="number">0</span> <span class="keyword">for</span> x <span class="keyword">in</span> pred_probs]</span><br><span class="line"></span><br><span class="line"><span class="comment"># 예측 라벨과 실제 라벨 사이의 정확도 측정</span></span><br><span class="line">accuracy_score(y_pred, y_test)</span><br></pre></td></tr></table></figure>
-
-
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> lightgbm <span class="keyword">as</span> lgb </span><br><span class="line"><span class="keyword">from</span> sklearn.model_selection <span class="keyword">import</span> train_test_split </span><br><span class="line"><span class="keyword">from</span> sklearn.metrics <span class="keyword">import</span> accuracy_score</span><br><span class="line"><span class="keyword">import</span> seaborn <span class="keyword">as</span> sns </span><br><span class="line"></span><br><span class="line"><span class="comment"># tips 데이터셋 </span></span><br><span class="line">titanic = sns.load_dataset(<span class="string">&#x27;titanic&#x27;</span>)</span><br><span class="line"></span><br><span class="line">X = titanic[[<span class="string">&#x27;pclass&#x27;</span>, <span class="string">&#x27;parch&#x27;</span>, <span class="string">&#x27;fare&#x27;</span>]]</span><br><span class="line">y = titanic[<span class="string">&#x27;survived&#x27;</span>]</span><br><span class="line"></span><br><span class="line"><span class="comment"># 훈련데이터, 테스트 데이터 분리</span></span><br><span class="line">X_train, X_test, y_train, y_test = train_test_split(X, y, stratify = y, test_size = <span class="number">0.3</span>, random_state=<span class="number">42</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># XGBoost 코드와 유사하다. </span></span><br><span class="line">dtrain = lgb.Dataset(data = X_train, label = y_train)</span><br><span class="line">dtest = lgb.Dataset(data = X_test, label = y_test)</span><br><span class="line"></span><br><span class="line">params = &#123;<span class="string">&#x27;max_depth&#x27;</span>:<span class="number">3</span>,</span><br><span class="line">          <span class="string">&#x27;n_estimators&#x27;</span>:<span class="number">100</span>,</span><br><span class="line">          <span class="string">&#x27;learning_rate&#x27;</span>: <span class="number">0.1</span>,</span><br><span class="line">          <span class="string">&#x27;objective&#x27;</span>:<span class="string">&#x27;binary&#x27;</span>,</span><br><span class="line">          <span class="string">&#x27;metric&#x27;</span> : <span class="string">&#x27;binary_error&#x27;</span>, </span><br><span class="line">          <span class="string">&#x27;num_boost_round&#x27;</span> : <span class="number">400</span>, </span><br><span class="line">          <span class="string">&#x27;verbose&#x27;</span> : <span class="number">1</span>&#125; </span><br><span class="line"></span><br><span class="line">w_list = [dtrain, dtest]</span><br><span class="line">lgb_ml = lgb.train(params=params, train_set = dtrain,\</span><br><span class="line">                  early_stopping_rounds=<span class="number">100</span>, valid_sets= w_list)</span><br><span class="line"></span><br><span class="line">pred_probs = lgb_ml.predict(X_test)</span><br><span class="line">y_pred=[<span class="number">1</span> <span class="keyword">if</span> x &gt; <span class="number">0.5</span> <span class="keyword">else</span> <span class="number">0</span> <span class="keyword">for</span> x <span class="keyword">in</span> pred_probs]</span><br><span class="line"></span><br><span class="line"><span class="comment"># 예측 라벨과 실제 라벨 사이의 정확도 측정</span></span><br><span class="line">accuracy_score(y_pred, y_test)</span><br></pre></td></tr></table></figure>
+<h3 id="LightGBM-Python-Wrapper-방식"><a href="#LightGBM-Python-Wrapper-방식" class="headerlink" title="LightGBM Python Wrapper 방식"></a>LightGBM Python Wrapper 방식</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> lightgbm <span class="keyword">as</span> lgb </span><br><span class="line"><span class="keyword">from</span> sklearn.model_selection <span class="keyword">import</span> train_test_split </span><br><span class="line"><span class="keyword">from</span> sklearn.metrics <span class="keyword">import</span> accuracy_score</span><br><span class="line"><span class="keyword">import</span> seaborn <span class="keyword">as</span> sns </span><br><span class="line"></span><br><span class="line"><span class="comment"># tips 데이터셋 </span></span><br><span class="line">titanic = sns.load_dataset(<span class="string">&#x27;titanic&#x27;</span>)</span><br><span class="line"></span><br><span class="line">X = titanic[[<span class="string">&#x27;pclass&#x27;</span>, <span class="string">&#x27;parch&#x27;</span>, <span class="string">&#x27;fare&#x27;</span>]]</span><br><span class="line">y = titanic[<span class="string">&#x27;survived&#x27;</span>]</span><br><span class="line"></span><br><span class="line"><span class="comment"># 훈련데이터, 테스트 데이터 분리</span></span><br><span class="line">X_train, X_test, y_train, y_test = train_test_split(X, y, stratify = y, test_size = <span class="number">0.3</span>, random_state=<span class="number">42</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># XGBoost 코드와 유사하다. </span></span><br><span class="line">dtrain = lgb.Dataset(data = X_train, label = y_train)</span><br><span class="line">dtest = lgb.Dataset(data = X_test, label = y_test)</span><br><span class="line"></span><br><span class="line">params = &#123;<span class="string">&#x27;max_depth&#x27;</span>:<span class="number">3</span>,</span><br><span class="line">          <span class="string">&#x27;n_estimators&#x27;</span>:<span class="number">100</span>,</span><br><span class="line">          <span class="string">&#x27;learning_rate&#x27;</span>: <span class="number">0.1</span>, <span class="comment"># xgboost eta</span></span><br><span class="line">          <span class="string">&#x27;objective&#x27;</span>:<span class="string">&#x27;binary&#x27;</span>, <span class="comment"># xgboost binary:logistic</span></span><br><span class="line">          <span class="string">&#x27;metric&#x27;</span> : <span class="string">&#x27;binary_error&#x27;</span>, </span><br><span class="line">          <span class="string">&#x27;num_boost_round&#x27;</span> : <span class="number">400</span>, </span><br><span class="line">          <span class="string">&#x27;verbose&#x27;</span> : <span class="number">1</span>&#125; </span><br><span class="line"></span><br><span class="line">w_list = [dtrain, dtest]</span><br><span class="line">lgb_ml = lgb.train(params=params, train_set = dtrain,\</span><br><span class="line">                  early_stopping_rounds=<span class="number">100</span>, valid_sets= w_list)</span><br><span class="line"></span><br><span class="line">pred_probs = lgb_ml.predict(X_test)</span><br><span class="line">y_pred=[<span class="number">1</span> <span class="keyword">if</span> x &gt; <span class="number">0.5</span> <span class="keyword">else</span> <span class="number">0</span> <span class="keyword">for</span> x <span class="keyword">in</span> pred_probs]</span><br><span class="line"></span><br><span class="line"><span class="comment"># 예측 라벨과 실제 라벨 사이의 정확도 측정</span></span><br><span class="line">accuracy_score(y_pred, y_test)</span><br></pre></td></tr></table></figure>
 
 <pre><code>/usr/local/lib/python3.7/dist-packages/lightgbm/engine.py:118: UserWarning: Found `num_boost_round` in params. Will use it instead of argument
   warnings.warn(&quot;Found `&#123;&#125;` in params. Will use it instead of argument&quot;.format(alias))
@@ -2148,7 +2430,223 @@ Early stopping, best iteration is:
 
 0.6940298507462687
 </code></pre>
-<h3 id="LightGBM-scikit-Learn-API방식"><a href="#LightGBM-scikit-Learn-API방식" class="headerlink" title="LightGBM scikit-Learn API방식"></a>LightGBM scikit-Learn API방식</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> lightgbm <span class="keyword">import</span> LGBMClassifier</span><br><span class="line"><span class="keyword">from</span> sklearn.metrics <span class="keyword">import</span> accuracy_score</span><br><span class="line"></span><br><span class="line"><span class="comment"># model </span></span><br><span class="line">w_list = [dtrain, dtest]</span><br><span class="line">model = LGBMClassifier(objective = <span class="string">&#x27;binary&#x27;</span>, </span><br><span class="line">                       metric = <span class="string">&#x27;binary_error&#x27;</span>,</span><br><span class="line">                       n_estimators=<span class="number">100</span>, </span><br><span class="line">                       learning_rate=<span class="number">0.1</span>, </span><br><span class="line">                       max_depth=<span class="number">3</span>, </span><br><span class="line">                       num_boost_round = <span class="number">400</span>,</span><br><span class="line">                       random_state = <span class="number">32</span>)</span><br><span class="line">model.fit(X_train, </span><br><span class="line">          y_train, </span><br><span class="line">          eval_set = [(X_train, y_train), (X_test, y_test)], </span><br><span class="line">          verbose=<span class="number">1</span>,</span><br><span class="line">          early_stopping_rounds = <span class="number">100</span>)</span><br><span class="line">y_probas = model.predict_proba(X_test) </span><br><span class="line">y_pred=[<span class="number">1</span> <span class="keyword">if</span> x &gt; <span class="number">0.5</span> <span class="keyword">else</span> <span class="number">0</span> <span class="keyword">for</span> x <span class="keyword">in</span> y_probas[:, <span class="number">1</span>]] <span class="comment"># 예측 라벨(0과 1로 예측)</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 예측 라벨과 실제 라벨 사이의 정확도 측정</span></span><br><span class="line">accuracy_score(y_pred, y_test)</span><br></pre></td></tr></table></figure>
+<h3 id="LightGBM-Scikit-Learn-API-방식"><a href="#LightGBM-Scikit-Learn-API-방식" class="headerlink" title="LightGBM Scikit-Learn API 방식"></a>LightGBM Scikit-Learn API 방식</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> lightgbm <span class="keyword">import</span> LGBMClassifier</span><br><span class="line"><span class="keyword">from</span> sklearn.metrics <span class="keyword">import</span> accuracy_score</span><br><span class="line"></span><br><span class="line"><span class="comment"># model </span></span><br><span class="line">w_list = [dtrain, dtest]</span><br><span class="line">model = LGBMClassifier(objective = <span class="string">&#x27;binary&#x27;</span>, </span><br><span class="line">                       metric = <span class="string">&#x27;binary_error&#x27;</span>,</span><br><span class="line">                       n_estimators=<span class="number">100</span>, </span><br><span class="line">                       learning_rate=<span class="number">0.1</span>, </span><br><span class="line">                       max_depth=<span class="number">3</span>, </span><br><span class="line">                       num_boost_round = <span class="number">400</span>,</span><br><span class="line">                       random_state = <span class="number">32</span>)</span><br><span class="line">model.fit(X_train, </span><br><span class="line">          y_train, </span><br><span class="line">          eval_set = [(X_train, y_train), (X_test, y_test)], </span><br><span class="line">          verbose=<span class="number">1</span>,</span><br><span class="line">          early_stopping_rounds = <span class="number">100</span>)</span><br><span class="line">y_probas = model.predict_proba(X_test) </span><br><span class="line">y_pred=[<span class="number">1</span> <span class="keyword">if</span> x &gt; <span class="number">0.5</span> <span class="keyword">else</span> <span class="number">0</span> <span class="keyword">for</span> x <span class="keyword">in</span> y_probas[:, <span class="number">1</span>]] <span class="comment"># 예측 라벨(0과 1로 예측)</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 예측 라벨과 실제 라벨 사이의 정확도 측정</span></span><br><span class="line">accuracy_score(y_pred, y_test)</span><br></pre></td></tr></table></figure>
+
+<pre><code>[1]	training&#39;s binary_error: 0.383628	valid_1&#39;s binary_error: 0.384328
+Training until validation scores don&#39;t improve for 100 rounds.
+[2]	training&#39;s binary_error: 0.383628	valid_1&#39;s binary_error: 0.384328
+[3]	training&#39;s binary_error: 0.354735	valid_1&#39;s binary_error: 0.369403
+[4]	training&#39;s binary_error: 0.29695	valid_1&#39;s binary_error: 0.354478
+[5]	training&#39;s binary_error: 0.272873	valid_1&#39;s binary_error: 0.33209
+[6]	training&#39;s binary_error: 0.272873	valid_1&#39;s binary_error: 0.33209
+[7]	training&#39;s binary_error: 0.269663	valid_1&#39;s binary_error: 0.317164
+[8]	training&#39;s binary_error: 0.269663	valid_1&#39;s binary_error: 0.317164
+[9]	training&#39;s binary_error: 0.264848	valid_1&#39;s binary_error: 0.309701
+[10]	training&#39;s binary_error: 0.269663	valid_1&#39;s binary_error: 0.309701
+[11]	training&#39;s binary_error: 0.264848	valid_1&#39;s binary_error: 0.309701
+[12]	training&#39;s binary_error: 0.264848	valid_1&#39;s binary_error: 0.309701
+[13]	training&#39;s binary_error: 0.264848	valid_1&#39;s binary_error: 0.309701
+[14]	training&#39;s binary_error: 0.264848	valid_1&#39;s binary_error: 0.309701
+[15]	training&#39;s binary_error: 0.264848	valid_1&#39;s binary_error: 0.309701
+[16]	training&#39;s binary_error: 0.266453	valid_1&#39;s binary_error: 0.313433
+[17]	training&#39;s binary_error: 0.266453	valid_1&#39;s binary_error: 0.313433
+[18]	training&#39;s binary_error: 0.266453	valid_1&#39;s binary_error: 0.313433
+[19]	training&#39;s binary_error: 0.266453	valid_1&#39;s binary_error: 0.313433
+[20]	training&#39;s binary_error: 0.266453	valid_1&#39;s binary_error: 0.313433
+[21]	training&#39;s binary_error: 0.266453	valid_1&#39;s binary_error: 0.313433
+[22]	training&#39;s binary_error: 0.266453	valid_1&#39;s binary_error: 0.313433
+[23]	training&#39;s binary_error: 0.271268	valid_1&#39;s binary_error: 0.313433
+[24]	training&#39;s binary_error: 0.258427	valid_1&#39;s binary_error: 0.309701
+[25]	training&#39;s binary_error: 0.258427	valid_1&#39;s binary_error: 0.309701
+[26]	training&#39;s binary_error: 0.258427	valid_1&#39;s binary_error: 0.309701
+[27]	training&#39;s binary_error: 0.258427	valid_1&#39;s binary_error: 0.309701
+[28]	training&#39;s binary_error: 0.258427	valid_1&#39;s binary_error: 0.309701
+[29]	training&#39;s binary_error: 0.255217	valid_1&#39;s binary_error: 0.309701
+[30]	training&#39;s binary_error: 0.255217	valid_1&#39;s binary_error: 0.309701
+[31]	training&#39;s binary_error: 0.255217	valid_1&#39;s binary_error: 0.309701
+[32]	training&#39;s binary_error: 0.255217	valid_1&#39;s binary_error: 0.309701
+[33]	training&#39;s binary_error: 0.255217	valid_1&#39;s binary_error: 0.317164
+[34]	training&#39;s binary_error: 0.255217	valid_1&#39;s binary_error: 0.317164
+[35]	training&#39;s binary_error: 0.255217	valid_1&#39;s binary_error: 0.317164
+[36]	training&#39;s binary_error: 0.255217	valid_1&#39;s binary_error: 0.309701
+[37]	training&#39;s binary_error: 0.255217	valid_1&#39;s binary_error: 0.317164
+[38]	training&#39;s binary_error: 0.255217	valid_1&#39;s binary_error: 0.317164
+[39]	training&#39;s binary_error: 0.248796	valid_1&#39;s binary_error: 0.309701
+[40]	training&#39;s binary_error: 0.248796	valid_1&#39;s binary_error: 0.313433
+[41]	training&#39;s binary_error: 0.248796	valid_1&#39;s binary_error: 0.313433
+[42]	training&#39;s binary_error: 0.248796	valid_1&#39;s binary_error: 0.313433
+[43]	training&#39;s binary_error: 0.248796	valid_1&#39;s binary_error: 0.313433
+[44]	training&#39;s binary_error: 0.248796	valid_1&#39;s binary_error: 0.313433
+[45]	training&#39;s binary_error: 0.247191	valid_1&#39;s binary_error: 0.313433
+[46]	training&#39;s binary_error: 0.247191	valid_1&#39;s binary_error: 0.313433
+[47]	training&#39;s binary_error: 0.247191	valid_1&#39;s binary_error: 0.313433
+[48]	training&#39;s binary_error: 0.247191	valid_1&#39;s binary_error: 0.313433
+[49]	training&#39;s binary_error: 0.247191	valid_1&#39;s binary_error: 0.313433
+[50]	training&#39;s binary_error: 0.247191	valid_1&#39;s binary_error: 0.313433
+[51]	training&#39;s binary_error: 0.247191	valid_1&#39;s binary_error: 0.313433
+[52]	training&#39;s binary_error: 0.247191	valid_1&#39;s binary_error: 0.313433
+[53]	training&#39;s binary_error: 0.247191	valid_1&#39;s binary_error: 0.313433
+[54]	training&#39;s binary_error: 0.247191	valid_1&#39;s binary_error: 0.313433
+[55]	training&#39;s binary_error: 0.247191	valid_1&#39;s binary_error: 0.313433
+[56]	training&#39;s binary_error: 0.247191	valid_1&#39;s binary_error: 0.313433
+[57]	training&#39;s binary_error: 0.247191	valid_1&#39;s binary_error: 0.313433
+[58]	training&#39;s binary_error: 0.247191	valid_1&#39;s binary_error: 0.313433
+[59]	training&#39;s binary_error: 0.247191	valid_1&#39;s binary_error: 0.313433
+[60]	training&#39;s binary_error: 0.247191	valid_1&#39;s binary_error: 0.313433
+[61]	training&#39;s binary_error: 0.247191	valid_1&#39;s binary_error: 0.313433
+[62]	training&#39;s binary_error: 0.247191	valid_1&#39;s binary_error: 0.313433
+[63]	training&#39;s binary_error: 0.247191	valid_1&#39;s binary_error: 0.313433
+[64]	training&#39;s binary_error: 0.247191	valid_1&#39;s binary_error: 0.313433
+[65]	training&#39;s binary_error: 0.247191	valid_1&#39;s binary_error: 0.313433
+[66]	training&#39;s binary_error: 0.243981	valid_1&#39;s binary_error: 0.309701
+[67]	training&#39;s binary_error: 0.23435	valid_1&#39;s binary_error: 0.309701
+[68]	training&#39;s binary_error: 0.23435	valid_1&#39;s binary_error: 0.309701
+[69]	training&#39;s binary_error: 0.23435	valid_1&#39;s binary_error: 0.309701
+[70]	training&#39;s binary_error: 0.229535	valid_1&#39;s binary_error: 0.309701
+[71]	training&#39;s binary_error: 0.229535	valid_1&#39;s binary_error: 0.309701
+[72]	training&#39;s binary_error: 0.229535	valid_1&#39;s binary_error: 0.309701
+[73]	training&#39;s binary_error: 0.229535	valid_1&#39;s binary_error: 0.309701
+[74]	training&#39;s binary_error: 0.229535	valid_1&#39;s binary_error: 0.309701
+[75]	training&#39;s binary_error: 0.229535	valid_1&#39;s binary_error: 0.309701
+[76]	training&#39;s binary_error: 0.229535	valid_1&#39;s binary_error: 0.309701
+[77]	training&#39;s binary_error: 0.229535	valid_1&#39;s binary_error: 0.309701
+[78]	training&#39;s binary_error: 0.232745	valid_1&#39;s binary_error: 0.313433
+[79]	training&#39;s binary_error: 0.232745	valid_1&#39;s binary_error: 0.313433
+[80]	training&#39;s binary_error: 0.232745	valid_1&#39;s binary_error: 0.313433
+[81]	training&#39;s binary_error: 0.229535	valid_1&#39;s binary_error: 0.309701
+[82]	training&#39;s binary_error: 0.229535	valid_1&#39;s binary_error: 0.309701
+[83]	training&#39;s binary_error: 0.229535	valid_1&#39;s binary_error: 0.309701
+[84]	training&#39;s binary_error: 0.229535	valid_1&#39;s binary_error: 0.309701
+[85]	training&#39;s binary_error: 0.229535	valid_1&#39;s binary_error: 0.309701
+[86]	training&#39;s binary_error: 0.229535	valid_1&#39;s binary_error: 0.309701
+[87]	training&#39;s binary_error: 0.229535	valid_1&#39;s binary_error: 0.309701
+[88]	training&#39;s binary_error: 0.229535	valid_1&#39;s binary_error: 0.309701
+[89]	training&#39;s binary_error: 0.229535	valid_1&#39;s binary_error: 0.309701
+[90]	training&#39;s binary_error: 0.229535	valid_1&#39;s binary_error: 0.309701
+[91]	training&#39;s binary_error: 0.229535	valid_1&#39;s binary_error: 0.309701
+[92]	training&#39;s binary_error: 0.229535	valid_1&#39;s binary_error: 0.309701
+[93]	training&#39;s binary_error: 0.227929	valid_1&#39;s binary_error: 0.309701
+[94]	training&#39;s binary_error: 0.227929	valid_1&#39;s binary_error: 0.309701
+[95]	training&#39;s binary_error: 0.227929	valid_1&#39;s binary_error: 0.309701
+[96]	training&#39;s binary_error: 0.227929	valid_1&#39;s binary_error: 0.309701
+[97]	training&#39;s binary_error: 0.227929	valid_1&#39;s binary_error: 0.309701
+[98]	training&#39;s binary_error: 0.227929	valid_1&#39;s binary_error: 0.309701
+[99]	training&#39;s binary_error: 0.221509	valid_1&#39;s binary_error: 0.317164
+[100]	training&#39;s binary_error: 0.227929	valid_1&#39;s binary_error: 0.309701
+[101]	training&#39;s binary_error: 0.23114	valid_1&#39;s binary_error: 0.30597
+[102]	training&#39;s binary_error: 0.23114	valid_1&#39;s binary_error: 0.30597
+[103]	training&#39;s binary_error: 0.227929	valid_1&#39;s binary_error: 0.309701
+[104]	training&#39;s binary_error: 0.221509	valid_1&#39;s binary_error: 0.317164
+[105]	training&#39;s binary_error: 0.221509	valid_1&#39;s binary_error: 0.317164
+[106]	training&#39;s binary_error: 0.224719	valid_1&#39;s binary_error: 0.313433
+[107]	training&#39;s binary_error: 0.224719	valid_1&#39;s binary_error: 0.317164
+[108]	training&#39;s binary_error: 0.224719	valid_1&#39;s binary_error: 0.317164
+[109]	training&#39;s binary_error: 0.224719	valid_1&#39;s binary_error: 0.317164
+[110]	training&#39;s binary_error: 0.224719	valid_1&#39;s binary_error: 0.317164
+[111]	training&#39;s binary_error: 0.223114	valid_1&#39;s binary_error: 0.313433
+[112]	training&#39;s binary_error: 0.223114	valid_1&#39;s binary_error: 0.313433
+[113]	training&#39;s binary_error: 0.223114	valid_1&#39;s binary_error: 0.313433
+[114]	training&#39;s binary_error: 0.223114	valid_1&#39;s binary_error: 0.313433
+[115]	training&#39;s binary_error: 0.223114	valid_1&#39;s binary_error: 0.313433
+[116]	training&#39;s binary_error: 0.223114	valid_1&#39;s binary_error: 0.313433
+[117]	training&#39;s binary_error: 0.223114	valid_1&#39;s binary_error: 0.313433
+[118]	training&#39;s binary_error: 0.223114	valid_1&#39;s binary_error: 0.313433
+[119]	training&#39;s binary_error: 0.223114	valid_1&#39;s binary_error: 0.313433
+[120]	training&#39;s binary_error: 0.223114	valid_1&#39;s binary_error: 0.309701
+[121]	training&#39;s binary_error: 0.223114	valid_1&#39;s binary_error: 0.309701
+[122]	training&#39;s binary_error: 0.223114	valid_1&#39;s binary_error: 0.309701
+[123]	training&#39;s binary_error: 0.223114	valid_1&#39;s binary_error: 0.309701
+[124]	training&#39;s binary_error: 0.223114	valid_1&#39;s binary_error: 0.309701
+[125]	training&#39;s binary_error: 0.223114	valid_1&#39;s binary_error: 0.309701
+[126]	training&#39;s binary_error: 0.223114	valid_1&#39;s binary_error: 0.309701
+[127]	training&#39;s binary_error: 0.223114	valid_1&#39;s binary_error: 0.309701
+[128]	training&#39;s binary_error: 0.223114	valid_1&#39;s binary_error: 0.309701
+[129]	training&#39;s binary_error: 0.223114	valid_1&#39;s binary_error: 0.309701
+[130]	training&#39;s binary_error: 0.223114	valid_1&#39;s binary_error: 0.309701
+[131]	training&#39;s binary_error: 0.223114	valid_1&#39;s binary_error: 0.309701
+[132]	training&#39;s binary_error: 0.223114	valid_1&#39;s binary_error: 0.309701
+[133]	training&#39;s binary_error: 0.223114	valid_1&#39;s binary_error: 0.309701
+[134]	training&#39;s binary_error: 0.223114	valid_1&#39;s binary_error: 0.309701
+[135]	training&#39;s binary_error: 0.223114	valid_1&#39;s binary_error: 0.309701
+[136]	training&#39;s binary_error: 0.223114	valid_1&#39;s binary_error: 0.309701
+[137]	training&#39;s binary_error: 0.219904	valid_1&#39;s binary_error: 0.309701
+[138]	training&#39;s binary_error: 0.219904	valid_1&#39;s binary_error: 0.309701
+[139]	training&#39;s binary_error: 0.223114	valid_1&#39;s binary_error: 0.309701
+[140]	training&#39;s binary_error: 0.223114	valid_1&#39;s binary_error: 0.309701
+[141]	training&#39;s binary_error: 0.223114	valid_1&#39;s binary_error: 0.309701
+[142]	training&#39;s binary_error: 0.223114	valid_1&#39;s binary_error: 0.309701
+[143]	training&#39;s binary_error: 0.223114	valid_1&#39;s binary_error: 0.309701
+[144]	training&#39;s binary_error: 0.221509	valid_1&#39;s binary_error: 0.320896
+[145]	training&#39;s binary_error: 0.223114	valid_1&#39;s binary_error: 0.313433
+[146]	training&#39;s binary_error: 0.221509	valid_1&#39;s binary_error: 0.313433
+[147]	training&#39;s binary_error: 0.221509	valid_1&#39;s binary_error: 0.313433
+[148]	training&#39;s binary_error: 0.221509	valid_1&#39;s binary_error: 0.313433
+[149]	training&#39;s binary_error: 0.221509	valid_1&#39;s binary_error: 0.313433
+[150]	training&#39;s binary_error: 0.219904	valid_1&#39;s binary_error: 0.324627
+[151]	training&#39;s binary_error: 0.219904	valid_1&#39;s binary_error: 0.324627
+[152]	training&#39;s binary_error: 0.221509	valid_1&#39;s binary_error: 0.313433
+[153]	training&#39;s binary_error: 0.219904	valid_1&#39;s binary_error: 0.324627
+[154]	training&#39;s binary_error: 0.219904	valid_1&#39;s binary_error: 0.324627
+[155]	training&#39;s binary_error: 0.219904	valid_1&#39;s binary_error: 0.324627
+[156]	training&#39;s binary_error: 0.219904	valid_1&#39;s binary_error: 0.324627
+[157]	training&#39;s binary_error: 0.219904	valid_1&#39;s binary_error: 0.324627
+[158]	training&#39;s binary_error: 0.219904	valid_1&#39;s binary_error: 0.324627
+[159]	training&#39;s binary_error: 0.219904	valid_1&#39;s binary_error: 0.324627
+[160]	training&#39;s binary_error: 0.219904	valid_1&#39;s binary_error: 0.324627
+[161]	training&#39;s binary_error: 0.219904	valid_1&#39;s binary_error: 0.324627
+[162]	training&#39;s binary_error: 0.219904	valid_1&#39;s binary_error: 0.324627
+[163]	training&#39;s binary_error: 0.219904	valid_1&#39;s binary_error: 0.324627
+[164]	training&#39;s binary_error: 0.219904	valid_1&#39;s binary_error: 0.324627
+[165]	training&#39;s binary_error: 0.219904	valid_1&#39;s binary_error: 0.324627
+[166]	training&#39;s binary_error: 0.219904	valid_1&#39;s binary_error: 0.324627
+[167]	training&#39;s binary_error: 0.219904	valid_1&#39;s binary_error: 0.324627
+[168]	training&#39;s binary_error: 0.219904	valid_1&#39;s binary_error: 0.324627
+[169]	training&#39;s binary_error: 0.219904	valid_1&#39;s binary_error: 0.324627
+[170]	training&#39;s binary_error: 0.215088	valid_1&#39;s binary_error: 0.317164
+[171]	training&#39;s binary_error: 0.215088	valid_1&#39;s binary_error: 0.317164
+[172]	training&#39;s binary_error: 0.215088	valid_1&#39;s binary_error: 0.317164
+[173]	training&#39;s binary_error: 0.215088	valid_1&#39;s binary_error: 0.317164
+[174]	training&#39;s binary_error: 0.215088	valid_1&#39;s binary_error: 0.317164
+[175]	training&#39;s binary_error: 0.216693	valid_1&#39;s binary_error: 0.320896
+[176]	training&#39;s binary_error: 0.216693	valid_1&#39;s binary_error: 0.320896
+[177]	training&#39;s binary_error: 0.221509	valid_1&#39;s binary_error: 0.328358
+[178]	training&#39;s binary_error: 0.221509	valid_1&#39;s binary_error: 0.328358
+[179]	training&#39;s binary_error: 0.221509	valid_1&#39;s binary_error: 0.328358
+[180]	training&#39;s binary_error: 0.221509	valid_1&#39;s binary_error: 0.328358
+[181]	training&#39;s binary_error: 0.221509	valid_1&#39;s binary_error: 0.328358
+[182]	training&#39;s binary_error: 0.216693	valid_1&#39;s binary_error: 0.320896
+[183]	training&#39;s binary_error: 0.216693	valid_1&#39;s binary_error: 0.320896
+[184]	training&#39;s binary_error: 0.216693	valid_1&#39;s binary_error: 0.320896
+[185]	training&#39;s binary_error: 0.216693	valid_1&#39;s binary_error: 0.320896
+[186]	training&#39;s binary_error: 0.216693	valid_1&#39;s binary_error: 0.320896
+[187]	training&#39;s binary_error: 0.216693	valid_1&#39;s binary_error: 0.320896
+[188]	training&#39;s binary_error: 0.216693	valid_1&#39;s binary_error: 0.320896
+[189]	training&#39;s binary_error: 0.216693	valid_1&#39;s binary_error: 0.320896
+[190]	training&#39;s binary_error: 0.216693	valid_1&#39;s binary_error: 0.320896
+[191]	training&#39;s binary_error: 0.216693	valid_1&#39;s binary_error: 0.320896
+[192]	training&#39;s binary_error: 0.216693	valid_1&#39;s binary_error: 0.320896
+[193]	training&#39;s binary_error: 0.216693	valid_1&#39;s binary_error: 0.320896
+[194]	training&#39;s binary_error: 0.216693	valid_1&#39;s binary_error: 0.320896
+[195]	training&#39;s binary_error: 0.216693	valid_1&#39;s binary_error: 0.320896
+[196]	training&#39;s binary_error: 0.216693	valid_1&#39;s binary_error: 0.320896
+[197]	training&#39;s binary_error: 0.215088	valid_1&#39;s binary_error: 0.317164
+[198]	training&#39;s binary_error: 0.215088	valid_1&#39;s binary_error: 0.317164
+[199]	training&#39;s binary_error: 0.215088	valid_1&#39;s binary_error: 0.317164
+[200]	training&#39;s binary_error: 0.215088	valid_1&#39;s binary_error: 0.317164
+[201]	training&#39;s binary_error: 0.215088	valid_1&#39;s binary_error: 0.317164
+Early stopping, best iteration is:
+[101]	training&#39;s binary_error: 0.23114	valid_1&#39;s binary_error: 0.30597
+
+
+/usr/local/lib/python3.7/dist-packages/lightgbm/engine.py:118: UserWarning: Found `num_boost_round` in params. Will use it instead of argument
+  warnings.warn(&quot;Found `&#123;&#125;` in params. Will use it instead of argument&quot;.format(alias))
+
+
+
+
+
+0.6940298507462687
+</code></pre>
 
         </div>
         <footer class="article-footer">
@@ -2156,7 +2654,7 @@ Early stopping, best iteration is:
 
 
 
-    <a data-url="https://park128.github.io/2022/07/06/day_0706/" data-id="cl59cgs3r000164tvefuq048e" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://park128.github.io/2022/07/06/day_0706/" data-id="cl5aqps6n000de8tvg93i6q4k" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         $('body').on('click', function() {
@@ -2232,10 +2730,22 @@ Early stopping, best iteration is:
         "genre": "",
         "datePublished": "2022-07-06",
         "dateCreated": "2022-07-06",
-        "dateModified": "2022-07-06",
+        "dateModified": "2022-07-07",
         "url": "https://park128.github.io/2022/07/06/day_0706/",
-        "description": "1234567891011121314## 데이터 분석 (머신러닝, 딥러닝) 프로세스- 데이터 불러오기 + CSV, 오라클 , MySQL, PostgreSQL, 클라우드 DB연동- 탐색적 자료 분석 + 데이터 전처리 및 가공- 잠정적인 컬럼의 갯수를 지정해야 함- 머신러닝 모델 (=통계 모델링, t.test, 분산분석, 교차분석)- 머신러닝 모델의 경우 배포 ",
-        "wordCount": 12345
+        "description": "데이터 분석 (머신러닝, 딥러닝) 프로세스
+데이터 불러오기
+CSV, 오라클, MySQL, PostgreSQL, 클라우드 DB 연동
+
+
+탐색적 자료 분석
+데이터 전처리 및 가공
+
+
+잠정적인 컬럼의 갯수를 지정해야 함
+머신러닝 모델 (&#x3D;통계 모델링, t.test, 분산분석, 교차분석)
+머신러닝 모델의 경우 배포 (현재는 다루지 않음 X)
+JSP-스프링",
+        "wordCount": 13619
     }
 </script>
 
@@ -2316,6 +2826,16 @@ Early stopping, best iteration is:
         
 <nav id="article-nav">
     
+        <a href="/2022/07/07/day_0707/" id="article-nav-newer" class="article-nav-link-wrap">
+        <strong class="article-nav-caption">newer</strong>
+        <p class="article-nav-title">
+        
+            Python 기초문법
+        
+        </p>
+        <i class="icon fa fa-chevron-right" id="icon-chevron-right"></i>
+    </a>
+    
     
         <a href="/2022/07/05/day_0705/" id="article-nav-older" class="article-nav-link-wrap">
         <strong class="article-nav-caption">older</strong>
@@ -2337,6 +2857,26 @@ Early stopping, best iteration is:
         <h3 class="widget-title">recents</h3>
         <div class="widget">
             <ul id="recent-post" class="">
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2022/07/07/day_0707/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/images/Kaggle_0707/output_12_1.png)" alt="Python 기초문법" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/2022/07/07/day_0707/" class="title">Python 기초문법</a></p>
+                            <p class="item-date"><time datetime="2022-07-07T00:00:00.000Z" itemprop="datePublished">2022-07-07</time></p>
+                        </div>
+                    </li>
                 
                     <li>
                         
@@ -2418,26 +2958,6 @@ Early stopping, best iteration is:
                         </div>
                     </li>
                 
-                    <li>
-                        
-                        <div class="item-thumbnail">
-                            <a href="/2022/06/29/day_0629/" class="thumbnail">
-    
-    
-        <span class="thumbnail-image thumbnail-none"></span>
-    
-    
-</a>
-
-                        </div>
-                        
-                        <div class="item-inner">
-                            <p class="item-category"></p>
-                            <p class="item-title"><a href="/2022/06/29/day_0629/" class="title">Python 기초문법</a></p>
-                            <p class="item-date"><time datetime="2022-06-29T00:00:00.000Z" itemprop="datePublished">2022-06-29</time></p>
-                        </div>
-                    </li>
-                
             </ul>
         </div>
     </div>
@@ -2450,7 +2970,7 @@ Early stopping, best iteration is:
     <div class="widget-wrap widget-list">
         <h3 class="widget-title">archives</h3>
         <div class="widget">
-            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/07/">July 2022</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/06/">June 2022</a><span class="archive-list-count">11</span></li></ul>
+            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/07/">July 2022</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/06/">June 2022</a><span class="archive-list-count">11</span></li></ul>
         </div>
     </div>
 
