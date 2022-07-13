@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+
+    
+
+    
+    <title>Hellow World</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <meta name="keywords" content="" />
+    
+    <meta name="description" content="프로젝트 개요 강의명 : 2022년 K-디지털 직업훈련(Training) 사업 - AI데이터플랫폼을 활용한 빅데이터 분석전문가 과정 교과목명 : 빅데이터 분석 및 시각화, AI개발 기초, 인공지능 프로그래밍 프로젝트 주제 : 캐글 대회 Bike Sharing Demand 데이터를 활용한 수요 예측 대회 프로젝트 마감일 : 2022년 7월 19일 화요일 수강">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hellow World">
+<meta property="og:url" content="https://park128.github.io/2022/07/13/day_0712/index.html">
+<meta property="og:site_name" content="Hellow World">
+<meta property="og:description" content="프로젝트 개요 강의명 : 2022년 K-디지털 직업훈련(Training) 사업 - AI데이터플랫폼을 활용한 빅데이터 분석전문가 과정 교과목명 : 빅데이터 분석 및 시각화, AI개발 기초, 인공지능 프로그래밍 프로젝트 주제 : 캐글 대회 Bike Sharing Demand 데이터를 활용한 수요 예측 대회 프로젝트 마감일 : 2022년 7월 19일 화요일 수강">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://park128.github.io/images/Kaggle_0712/output_12_1.png">
+<meta property="article:published_time" content="2022-07-12T23:49:08.861Z">
+<meta property="article:modified_time" content="2022-07-13T00:58:04.528Z">
+<meta property="article:author" content="John Doe">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://park128.github.io/images/Kaggle_0712/output_12_1.png">
+    
+
+    
+        <link rel="alternate" href="/" title="Hellow World" type="application/atom+xml" />
+    
+
+    
+
+    
+<link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css">
+
+    
+<link rel="stylesheet" href="/libs/titillium-web/styles.css">
+
+    
+<link rel="stylesheet" href="/libs/source-code-pro/styles.css">
+
+
+    
+<link rel="stylesheet" href="/css/style.css">
+
+
+    
+<script src="/libs/jquery/3.5.0/jquery.min.js"></script>
+
+    
+    
+        
+<link rel="stylesheet" href="/libs/lightgallery/css/lightgallery.min.css">
+
+    
+    
+        
+<link rel="stylesheet" href="/libs/justified-gallery/justifiedGallery.min.css">
+
+    
+    
+    
+    
+
+
+<meta name="generator" content="Hexo 6.2.0"></head>
+
+<body>
+    <div id="wrap">
+        <header id="header">
+    <div id="header-outer" class="outer">
+        <div class="container">
+            <div class="container-inner">
+                <div id="header-title">
+                    <h1 class="logo-wrap">
+                        <a href="/" class="logo"></a>
+                    </h1>
+                    
+                </div>
+                <div id="header-inner" class="nav-container">
+                    <a id="main-nav-toggle" class="nav-icon fa fa-bars"></a>
+                    <div class="nav-container-inner">
+                        <ul id="main-nav">
+                            
+                                <li class="main-nav-list-item" >
+                                    <a class="main-nav-list-link" href="/">Home</a>
+                                </li>
+                            
+                                    
+                                
+                                <li class="main-nav-list-item" >
+                                    <a class="main-nav-list-link" href="/about/index.html">About</a>
+                                </li>
+                            
+                        </ul>
+                        <nav id="sub-nav">
+                            <div id="search-form-wrap">
+
+    <form class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
+        <button type="submit" class="search-form-submit"></button>
+    </form>
+    <div class="ins-search">
+    <div class="ins-search-mask"></div>
+    <div class="ins-search-container">
+        <div class="ins-input-wrapper">
+            <input type="text" class="ins-search-input" placeholder="Type something..." />
+            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: 'Posts',
+            PAGES: 'Pages',
+            CATEGORIES: 'Categories',
+            TAGS: 'Tags',
+            UNTITLED: '(Untitled)',
+        },
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+
+<script src="/js/insight.js"></script>
+
+
+</div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+        <div class="container">
+            <div class="main-body container-inner">
+                <div class="main-body-inner">
+                    <section id="main">
+                        <div class="main-body-header">
+    <h1 class="header">
+    
+    uncategorized
+    </h1>
+</div>
+
+                        <div class="main-body-content">
+                            <article id="post-day_0712" class="article article-single article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        
+            <div class="article-meta">
+                
+  <div class="article-date">
+    <i class="fa fa-calendar"></i>
+    <a href="/2022/07/13/day_0712/" class="article-date">
+       <time datetime="2022-07-12T23:49:08.861Z" itemprop="datePublished">2022-07-13</time>
+    </a>
+  </div>
+
+
+<div class="article-date">
+  <i class="fa fa-calendar-plus-o"></i>
+  <a href="/2022/07/13/day_0712/" class="article-date">
+     <time datetime="2022-07-13T00:58:04.528Z" itemprop="dateModified">2022-07-13</time>
+  </a>
+</div>
+
+
+                
+
+                
+                
+
+                
+
+            </div>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+            
+
+            
+
+            
+
+            <h2 id="프로젝트-개요"><a href="#프로젝트-개요" class="headerlink" title="프로젝트 개요"></a>프로젝트 개요</h2><ul>
+<li>강의명 : 2022년 K-디지털 직업훈련(Training) 사업 - AI데이터플랫폼을 활용한 빅데이터 분석전문가 과정</li>
+<li>교과목명 : 빅데이터 분석 및 시각화, AI개발 기초, 인공지능 프로그래밍</li>
+<li>프로젝트 주제 : 캐글 대회 Bike Sharing Demand 데이터를 활용한 수요 예측 대회</li>
+<li>프로젝트 마감일 : 2022년 7월 19일 화요일</li>
+<li>수강생명 : 박근태</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># This Python 3 environment comes with many helpful analytics libraries installed</span></span><br><span class="line"><span class="comment"># It is defined by the kaggle/python Docker image: https://github.com/kaggle/docker-python</span></span><br><span class="line"><span class="comment"># For example, here&#x27;s several helpful packages to load</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np <span class="comment"># linear algebra</span></span><br><span class="line"><span class="keyword">import</span> pandas <span class="keyword">as</span> pd <span class="comment"># data processing, CSV file I/O (e.g. pd.read_csv)</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Input data files are available in the read-only &quot;../input/&quot; directory</span></span><br><span class="line"><span class="comment"># For example, running this (by clicking run or pressing Shift+Enter) will list all files under the input directory</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> os</span><br><span class="line"><span class="keyword">for</span> dirname, _, filenames <span class="keyword">in</span> os.walk(<span class="string">&#x27;/kaggle/input&#x27;</span>):</span><br><span class="line">    <span class="keyword">for</span> filename <span class="keyword">in</span> filenames:</span><br><span class="line">        <span class="built_in">print</span>(os.path.join(dirname, filename))</span><br><span class="line"></span><br><span class="line"><span class="comment"># You can write up to 20GB to the current directory (/kaggle/working/) that gets preserved as output when you create a version using &quot;Save &amp; Run All&quot; </span></span><br><span class="line"><span class="comment"># You can also write temporary files to /kaggle/temp/, but they won&#x27;t be saved outside of the current session</span></span><br></pre></td></tr></table></figure>
+
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">&quot;&quot;&quot;필요 라이브러리들 호출&quot;&quot;&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> warnings</span><br><span class="line">warnings.filterwarnings(<span class="string">&#x27;ignore&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np </span><br><span class="line"><span class="keyword">import</span> pandas <span class="keyword">as</span> pd </span><br><span class="line"><span class="keyword">import</span> seaborn <span class="keyword">as</span> sns <span class="comment">#시각화를 위한 라이브러리</span></span><br><span class="line"><span class="keyword">import</span> matplotlib.pyplot <span class="keyword">as</span> plt</span><br><span class="line"><span class="keyword">import</span> calendar </span><br><span class="line"><span class="keyword">from</span> datetime <span class="keyword">import</span> datetime</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> os</span><br><span class="line"><span class="built_in">print</span>(os.listdir(<span class="string">&quot;../input&quot;</span>))</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">train_data의 season(계절)값이 1월에 봄으로 설정 되어있다. 네이버에 검색 해보니 3월~5월이 봄이다.</span></span><br><span class="line"><span class="string">따라서 badToRight를 이용하여 season column을 수정하였다.</span></span><br><span class="line"><span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">badToRight</span>(<span class="params">month</span>):</span><br><span class="line">    <span class="keyword">if</span> month <span class="keyword">in</span> [<span class="number">12</span>,<span class="number">1</span>,<span class="number">2</span>]:</span><br><span class="line">        <span class="keyword">return</span> <span class="number">4</span></span><br><span class="line">    <span class="keyword">elif</span> month <span class="keyword">in</span> [<span class="number">3</span>,<span class="number">4</span>,<span class="number">5</span>]:</span><br><span class="line">        <span class="keyword">return</span> <span class="number">1</span></span><br><span class="line">    <span class="keyword">elif</span> month <span class="keyword">in</span> [<span class="number">6</span>,<span class="number">7</span>,<span class="number">8</span>]:</span><br><span class="line">        <span class="keyword">return</span> <span class="number">2</span></span><br><span class="line">    <span class="keyword">elif</span> month <span class="keyword">in</span> [<span class="number">9</span>,<span class="number">10</span>,<span class="number">11</span>]:</span><br><span class="line">        <span class="keyword">return</span> <span class="number">3</span></span><br></pre></td></tr></table></figure>
+
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">train_data = pd.read_csv(<span class="string">&quot;/kaggle/input/bike-sharing-demand/train.csv&quot;</span>)</span><br><span class="line">test_data = pd.read_csv(<span class="string">&quot;/kaggle/input/bike-sharing-demand/test.csv&quot;</span>)</span><br><span class="line">submission = pd.read_csv(<span class="string">&quot;/kaggle/input/bike-sharing-demand/sampleSubmission.csv&quot;</span>)</span><br></pre></td></tr></table></figure>
+
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 훈련, 테스트 데이터셋의 형태 및 컬럽의 속성 테이터 값 파악</span></span><br><span class="line">train_data.head()</span><br></pre></td></tr></table></figure>
+
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">test_data.head()</span><br></pre></td></tr></table></figure>
+
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 데이터 전처리 및 시각과 (그 이유는 어떻게 생겼는지 확인을 위해)</span></span><br><span class="line">train_data[<span class="string">&#x27;tempDate&#x27;</span>] = train_data.datetime.apply(<span class="keyword">lambda</span> x:x.split())</span><br></pre></td></tr></table></figure>
+
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">train_data[<span class="string">&#x27;year&#x27;</span>] = train_data.tempDate.apply(<span class="keyword">lambda</span> x:x[<span class="number">0</span>].split(<span class="string">&#x27;-&#x27;</span>)[<span class="number">0</span>])</span><br><span class="line">train_data[<span class="string">&#x27;month&#x27;</span>] = train_data.tempDate.apply(<span class="keyword">lambda</span> x:x[<span class="number">0</span>].split(<span class="string">&#x27;-&#x27;</span>)[<span class="number">1</span>])</span><br><span class="line">train_data[<span class="string">&#x27;day&#x27;</span>] = train_data.tempDate.apply(<span class="keyword">lambda</span> x:x[<span class="number">0</span>].split(<span class="string">&#x27;-&#x27;</span>)[<span class="number">2</span>])</span><br><span class="line">train_data[<span class="string">&#x27;hour&#x27;</span>] = train_data.tempDate.apply(<span class="keyword">lambda</span> x:x[<span class="number">1</span>].split(<span class="string">&#x27;:&#x27;</span>)[<span class="number">0</span>])</span><br></pre></td></tr></table></figure>
+
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">train_data[<span class="string">&#x27;weekday&#x27;</span>] = train_data.tempDate.apply(<span class="keyword">lambda</span> x:calendar.day_name[datetime.strptime(x[<span class="number">0</span>],<span class="string">&quot;%Y-%m-%d&quot;</span>).weekday()])</span><br></pre></td></tr></table></figure>
+
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">train_data[<span class="string">&#x27;year&#x27;</span>] = pd.to_numeric(train_data.year,errors=<span class="string">&#x27;coerce&#x27;</span>)</span><br><span class="line">train_data[<span class="string">&#x27;month&#x27;</span>] = pd.to_numeric(train_data.month,errors=<span class="string">&#x27;coerce&#x27;</span>)</span><br><span class="line">train_data[<span class="string">&#x27;day&#x27;</span>] = pd.to_numeric(train_data.day,errors=<span class="string">&#x27;coerce&#x27;</span>)</span><br><span class="line">train_data[<span class="string">&#x27;hour&#x27;</span>] = pd.to_numeric(train_data.hour,errors=<span class="string">&#x27;coerce&#x27;</span>)</span><br></pre></td></tr></table></figure>
+
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">train_data.info()</span><br></pre></td></tr></table></figure>
+
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">train_data = train_data.drop(<span class="string">&#x27;tempDate&#x27;</span>, axis=<span class="number">1</span>)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># count 와 다른값들의 상관관계</span></span><br><span class="line"></span><br><span class="line">fig = plt.figure(figsize=[<span class="number">15</span>,<span class="number">12</span>])</span><br><span class="line"></span><br><span class="line"><span class="comment"># 년도와의 관계</span></span><br><span class="line">ax1 = fig.add_subplot(<span class="number">2</span>,<span class="number">2</span>,<span class="number">1</span>)</span><br><span class="line">ax1 = sns.barplot(x=<span class="string">&#x27;year&#x27;</span>,y=<span class="string">&#x27;count&#x27;</span>, data=train_data.groupby(<span class="string">&#x27;year&#x27;</span>)[<span class="string">&#x27;count&#x27;</span>].mean().reset_index())</span><br><span class="line"></span><br><span class="line"><span class="comment"># 달과의 관계</span></span><br><span class="line">ax2 = fig.add_subplot(<span class="number">2</span>,<span class="number">2</span>,<span class="number">2</span>)</span><br><span class="line">ax2 = sns.barplot(x=<span class="string">&#x27;month&#x27;</span>,y=<span class="string">&#x27;count&#x27;</span>,data=train_data.groupby(<span class="string">&#x27;month&#x27;</span>)[<span class="string">&#x27;count&#x27;</span>].mean().reset_index())</span><br><span class="line"></span><br><span class="line"><span class="comment"># 날짜와의 관계</span></span><br><span class="line">ax3 = fig.add_subplot(<span class="number">2</span>,<span class="number">2</span>,<span class="number">3</span>)</span><br><span class="line">ax3 = sns.barplot(x=<span class="string">&#x27;day&#x27;</span>,y=<span class="string">&#x27;count&#x27;</span>,data=train_data.groupby(<span class="string">&#x27;day&#x27;</span>)[<span class="string">&#x27;count&#x27;</span>].mean().reset_index())</span><br><span class="line"></span><br><span class="line"><span class="comment"># 시간과의 관계</span></span><br><span class="line">ax4 = fig.add_subplot(<span class="number">2</span>,<span class="number">2</span>,<span class="number">4</span>)</span><br><span class="line">ax4 = sns.barplot(x=<span class="string">&#x27;hour&#x27;</span>,y=<span class="string">&#x27;count&#x27;</span>,data=train_data.groupby(<span class="string">&#x27;hour&#x27;</span>)[<span class="string">&#x27;count&#x27;</span>].mean().reset_index())</span><br></pre></td></tr></table></figure>
+
+
+<p><img src="/images/Kaggle_0712/output_12_1.png" alt="png"><br>h</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#계절과 관계</span></span><br><span class="line">fig = plt.figure(figsize=[<span class="number">15</span>,<span class="number">12</span>])</span><br><span class="line">ax1 = fig.add_subplot(<span class="number">2</span>,<span class="number">2</span>,<span class="number">1</span>)</span><br><span class="line">ax1 = sns.barplot(x=<span class="string">&#x27;season&#x27;</span>,y=<span class="string">&#x27;count&#x27;</span>,data=train_data.groupby(<span class="string">&#x27;season&#x27;</span>)[<span class="string">&#x27;count&#x27;</span>].mean().reset_index())</span><br><span class="line"></span><br><span class="line"><span class="comment">#휴일 여부와의 관계</span></span><br><span class="line">ax2 = fig.add_subplot(<span class="number">2</span>,<span class="number">2</span>,<span class="number">2</span>)</span><br><span class="line">ax2 = sns.barplot(x=<span class="string">&#x27;holiday&#x27;</span>,y=<span class="string">&#x27;count&#x27;</span>,data=train_data.groupby(<span class="string">&#x27;holiday&#x27;</span>)[<span class="string">&#x27;count&#x27;</span>].mean().reset_index())</span><br><span class="line"></span><br><span class="line"><span class="comment">#작업일 여부와의 관계</span></span><br><span class="line">ax3 = fig.add_subplot(<span class="number">2</span>,<span class="number">2</span>,<span class="number">3</span>)</span><br><span class="line">ax3 = sns.barplot(x=<span class="string">&#x27;workingday&#x27;</span>,y=<span class="string">&#x27;count&#x27;</span>,data=train_data.groupby(<span class="string">&#x27;workingday&#x27;</span>)[<span class="string">&#x27;count&#x27;</span>].mean().reset_index())</span><br><span class="line"></span><br><span class="line"><span class="comment">#날씨와의 관계 </span></span><br><span class="line">ax4 = fig.add_subplot(<span class="number">2</span>,<span class="number">2</span>,<span class="number">4</span>)</span><br><span class="line">ax4 = sns.barplot(x=<span class="string">&#x27;weather&#x27;</span>,y=<span class="string">&#x27;count&#x27;</span>,data=train_data.groupby(<span class="string">&#x27;weather&#x27;</span>)[<span class="string">&#x27;count&#x27;</span>].mean().reset_index())</span><br></pre></td></tr></table></figure>
+
+
+<p><img src="/images/Kaggle_0712/output_12_2.png" alt="png"></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">train_data.head(<span class="number">5</span>)</span><br></pre></td></tr></table></figure>
+
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">train_data[<span class="string">&#x27;season&#x27;</span>] = train_data.month.apply(badToRight)</span><br></pre></td></tr></table></figure>
+
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">train_data.head(<span class="number">5</span>)</span><br></pre></td></tr></table></figure>
+
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#계절과 관계</span></span><br><span class="line">fig = plt.figure(figsize=[<span class="number">15</span>,<span class="number">12</span>])</span><br><span class="line">ax1 = fig.add_subplot(<span class="number">2</span>,<span class="number">2</span>,<span class="number">1</span>)</span><br><span class="line">ax1 = sns.barplot(x=<span class="string">&#x27;season&#x27;</span>,y=<span class="string">&#x27;count&#x27;</span>,data=train_data.groupby(<span class="string">&#x27;season&#x27;</span>)[<span class="string">&#x27;count&#x27;</span>].mean().reset_index())</span><br><span class="line"></span><br><span class="line"><span class="comment">#휴일 여부와의 관계</span></span><br><span class="line">ax2 = fig.add_subplot(<span class="number">2</span>,<span class="number">2</span>,<span class="number">2</span>)</span><br><span class="line">ax2 = sns.barplot(x=<span class="string">&#x27;holiday&#x27;</span>,y=<span class="string">&#x27;count&#x27;</span>,data=train_data.groupby(<span class="string">&#x27;holiday&#x27;</span>)[<span class="string">&#x27;count&#x27;</span>].mean().reset_index())</span><br><span class="line"></span><br><span class="line"><span class="comment">#작업일 여부와의 관계</span></span><br><span class="line">ax3 = fig.add_subplot(<span class="number">2</span>,<span class="number">2</span>,<span class="number">3</span>)</span><br><span class="line">ax3 = sns.barplot(x=<span class="string">&#x27;workingday&#x27;</span>,y=<span class="string">&#x27;count&#x27;</span>,data=train_data.groupby(<span class="string">&#x27;workingday&#x27;</span>)[<span class="string">&#x27;count&#x27;</span>].mean().reset_index())</span><br><span class="line"></span><br><span class="line"><span class="comment">#날씨와의 관계 </span></span><br><span class="line">ax4 = fig.add_subplot(<span class="number">2</span>,<span class="number">2</span>,<span class="number">4</span>)</span><br><span class="line">ax4 = sns.barplot(x=<span class="string">&#x27;weather&#x27;</span>,y=<span class="string">&#x27;count&#x27;</span>,data=train_data.groupby(<span class="string">&#x27;weather&#x27;</span>)[<span class="string">&#x27;count&#x27;</span>].mean().reset_index())</span><br></pre></td></tr></table></figure>
+
+
+<p><img src="/images/Kaggle_0712/output_12_3.png" alt="png"></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#남은 분포를 통해 표현하였을 때 좋은 컬럼들을 count와 비교</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#온도와 count</span></span><br><span class="line">fig = plt.figure(figsize=[<span class="number">12</span>,<span class="number">10</span>])</span><br><span class="line">ax1 = fig.add_subplot(<span class="number">2</span>,<span class="number">2</span>,<span class="number">1</span>)</span><br><span class="line">ax1 = sns.distplot(train_data.temp,bins=<span class="built_in">range</span>(train_data.temp.<span class="built_in">min</span>().astype(<span class="string">&#x27;int&#x27;</span>),train_data.temp.<span class="built_in">max</span>().astype(<span class="string">&#x27;int&#x27;</span>)+<span class="number">1</span>))</span><br><span class="line"></span><br><span class="line"><span class="comment">#평균온도와 count</span></span><br><span class="line">ax2 = fig.add_subplot(<span class="number">2</span>,<span class="number">2</span>,<span class="number">2</span>)</span><br><span class="line">ax2 = sns.distplot(train_data.atemp,bins=<span class="built_in">range</span>(train_data.atemp.<span class="built_in">min</span>().astype(<span class="string">&#x27;int&#x27;</span>),train_data.atemp.<span class="built_in">max</span>().astype(<span class="string">&#x27;int&#x27;</span>)+<span class="number">1</span>))</span><br><span class="line"></span><br><span class="line"><span class="comment">#습도와 count</span></span><br><span class="line">ax3 = fig.add_subplot(<span class="number">2</span>,<span class="number">2</span>,<span class="number">3</span>)</span><br><span class="line">ax3 = sns.distplot(train_data.humidity,bins=<span class="built_in">range</span>(train_data.humidity.<span class="built_in">min</span>().astype(<span class="string">&#x27;int&#x27;</span>),train_data.humidity.<span class="built_in">max</span>().astype(<span class="string">&#x27;int&#x27;</span>)+<span class="number">1</span>))</span><br><span class="line"></span><br><span class="line"><span class="comment">#바람속도와 count</span></span><br><span class="line">ax4 = fig.add_subplot(<span class="number">2</span>,<span class="number">2</span>,<span class="number">4</span>)</span><br><span class="line">ax4 = sns.distplot(train_data.windspeed,bins=<span class="built_in">range</span>(train_data.windspeed.<span class="built_in">min</span>().astype(<span class="string">&#x27;int&#x27;</span>),train_data.windspeed.<span class="built_in">max</span>().astype(<span class="string">&#x27;int&#x27;</span>)+<span class="number">1</span>))</span><br></pre></td></tr></table></figure>
+
+
+<p><img src="/images/Kaggle_0712/output_12_4.png" alt="png"></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">fig = plt.figure(figsize=[<span class="number">20</span>,<span class="number">20</span>])</span><br><span class="line">ax = sns.heatmap(train_data.corr(),annot=<span class="literal">True</span>,square=<span class="literal">True</span>)</span><br></pre></td></tr></table></figure>
+
+
+<p><img src="/images/Kaggle_0712/output_12_5.png" alt="png"></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#heatmap 상관관계를 참조하여 이전의 시각화와는 달리 두 개의 서로다른 컬럼이 적용된 count를 시각화해보자</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#시간과 계절에 따른 count</span></span><br><span class="line">fig = plt.figure(figsize=[<span class="number">12</span>,<span class="number">10</span>])</span><br><span class="line">ax1 = fig.add_subplot(<span class="number">2</span>,<span class="number">2</span>,<span class="number">1</span>)</span><br><span class="line">ax1 = sns.pointplot(x=<span class="string">&#x27;hour&#x27;</span>,y=<span class="string">&#x27;count&#x27;</span>,hue=<span class="string">&#x27;season&#x27;</span>,data=train_data.groupby([<span class="string">&#x27;season&#x27;</span>,<span class="string">&#x27;hour&#x27;</span>])[<span class="string">&#x27;count&#x27;</span>].mean().reset_index())</span><br><span class="line"></span><br><span class="line"><span class="comment">#시간과 휴일 여부에 따른 count</span></span><br><span class="line">ax2 = fig.add_subplot(<span class="number">2</span>,<span class="number">2</span>,<span class="number">2</span>)</span><br><span class="line">ax2 = sns.pointplot(x=<span class="string">&#x27;hour&#x27;</span>,y=<span class="string">&#x27;count&#x27;</span>,hue=<span class="string">&#x27;holiday&#x27;</span>,data=train_data.groupby([<span class="string">&#x27;holiday&#x27;</span>,<span class="string">&#x27;hour&#x27;</span>])[<span class="string">&#x27;count&#x27;</span>].mean().reset_index())</span><br><span class="line"></span><br><span class="line"><span class="comment">#시간과 휴일 여부에 따른 count</span></span><br><span class="line">ax3 = fig.add_subplot(<span class="number">2</span>,<span class="number">2</span>,<span class="number">3</span>)</span><br><span class="line">ax3 = sns.pointplot(x=<span class="string">&#x27;hour&#x27;</span>,y=<span class="string">&#x27;count&#x27;</span>,hue=<span class="string">&#x27;weekday&#x27;</span>,hue_order=[<span class="string">&#x27;Sunday&#x27;</span>,<span class="string">&#x27;Monday&#x27;</span>,<span class="string">&#x27;Tuesday&#x27;</span>,<span class="string">&#x27;Wendnesday&#x27;</span>,<span class="string">&#x27;Thursday&#x27;</span>,<span class="string">&#x27;Friday&#x27;</span>,<span class="string">&#x27;Saturday&#x27;</span>],data=train_data.groupby([<span class="string">&#x27;weekday&#x27;</span>,<span class="string">&#x27;hour&#x27;</span>])[<span class="string">&#x27;count&#x27;</span>].mean().reset_index())</span><br><span class="line"></span><br><span class="line"><span class="comment">#시간과 날씨에 따른 count</span></span><br><span class="line">ax4 = fig.add_subplot(<span class="number">2</span>,<span class="number">2</span>,<span class="number">4</span>)</span><br><span class="line">ax4 = sns.pointplot(x=<span class="string">&#x27;hour&#x27;</span>,y=<span class="string">&#x27;count&#x27;</span>,hue=<span class="string">&#x27;weather&#x27;</span>,data=train_data.groupby([<span class="string">&#x27;weather&#x27;</span>,<span class="string">&#x27;hour&#x27;</span>])[<span class="string">&#x27;count&#x27;</span>].mean().reset_index())</span><br></pre></td></tr></table></figure>
+
+
+<p><img src="/images/Kaggle_0712/output_12_6.png" alt="png"></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#마지막 시각화에 이상치가 있는 것같아서 확인</span></span><br><span class="line"></span><br><span class="line">train_data[train_data.weather==<span class="number">4</span>]</span><br></pre></td></tr></table></figure>
+
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#달과 날씨에 따른 count </span></span><br><span class="line">fig = plt.figure(figsize=[<span class="number">12</span>,<span class="number">10</span>])</span><br><span class="line">ax1 = fig.add_subplot(<span class="number">2</span>,<span class="number">1</span>,<span class="number">1</span>)</span><br><span class="line">ax1 = sns.pointplot(x=<span class="string">&#x27;month&#x27;</span>,y=<span class="string">&#x27;count&#x27;</span>,hue=<span class="string">&#x27;weather&#x27;</span>,data=train_data.groupby([<span class="string">&#x27;weather&#x27;</span>,<span class="string">&#x27;month&#x27;</span>])[<span class="string">&#x27;count&#x27;</span>].mean().reset_index())</span><br><span class="line"></span><br><span class="line"><span class="comment">#달별 count</span></span><br><span class="line">ax2 = fig.add_subplot(<span class="number">2</span>,<span class="number">1</span>,<span class="number">2</span>)</span><br><span class="line">ax2 = sns.barplot(x=<span class="string">&#x27;month&#x27;</span>,y=<span class="string">&#x27;count&#x27;</span>,data=train_data.groupby(<span class="string">&#x27;month&#x27;</span>)[<span class="string">&#x27;count&#x27;</span>].mean().reset_index())</span><br></pre></td></tr></table></figure>
+
+
+<p><img src="/images/Kaggle_0712/output_12_7.png" alt="png"></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">Windspeed 분포를 표현한 그래프에서 Windspeed가 0인 값들이 많았는데,</span></span><br><span class="line"><span class="string">이는 실제로 0이었던지 or 값을 제대로 측정하지 못해서 0인지 두 개의 경우가 있다.</span></span><br><span class="line"><span class="string">하지만 후자의 생각을 가지고 우리의 데이터를 활용하여 windspeed값을 부여해보자</span></span><br><span class="line"><span class="string">&quot;&quot;&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#머신러닝 모델에 훈련시킬 때는 문자열 값은 불가능하기 때문에 문자열을 카테고리화 하고 각각에 해당하는 값을 숫자로 변환해준다</span></span><br><span class="line">train_data[<span class="string">&#x27;weekday&#x27;</span>]= train_data.weekday.astype(<span class="string">&#x27;category&#x27;</span>)</span><br></pre></td></tr></table></figure>
+
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">print</span>(train_data[<span class="string">&#x27;weekday&#x27;</span>].cat.categories)</span><br></pre></td></tr></table></figure>
+
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#0:Sunday --&gt; 6:Saturday</span></span><br><span class="line">train_data.weekday.cat.categories = [<span class="string">&#x27;5&#x27;</span>,<span class="string">&#x27;1&#x27;</span>,<span class="string">&#x27;6&#x27;</span>,<span class="string">&#x27;0&#x27;</span>,<span class="string">&#x27;4&#x27;</span>,<span class="string">&#x27;2&#x27;</span>,<span class="string">&#x27;3&#x27;</span>]</span><br></pre></td></tr></table></figure>
+
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">RandomForest를 활용하여 Windspeed값을 부여해보자</span></span><br><span class="line"><span class="string">하나의 데이터를 Windspeed가 0인 그리고 0이 아닌 데이터프레임으로 분리하고</span></span><br><span class="line"><span class="string">학습시킬 0이 아닌 데이터 프레임에서는 Windspeed만 담긴 Series와 이외의 학습시킬 column들의 데이터프레임으로 분리한다</span></span><br><span class="line"><span class="string">학습 시킨 후에 Windspeed가 0인 데이터 프레임에서 학습시킨 컬럼과 같게 추출하여 결과 값을 부여받은 후,</span></span><br><span class="line"><span class="string">Windspeed가 0인 데이터프레임에 Windspeed값을 부여한다.</span></span><br><span class="line"><span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="keyword">from</span> sklearn.ensemble <span class="keyword">import</span> RandomForestRegressor</span><br><span class="line"></span><br><span class="line"><span class="comment">#Windspeed가 0인 데이터프레임</span></span><br><span class="line">windspeed_0 = train_data[train_data.windspeed == <span class="number">0</span>]</span><br><span class="line"></span><br><span class="line"><span class="comment">#Windspeed가 0이 아닌 데이터프레임</span></span><br><span class="line">windspeed_Not0 = train_data[train_data.windspeed != <span class="number">0</span>]</span><br><span class="line"></span><br><span class="line"><span class="comment">#Windspeed가 0인 데이터 프레임에 투입을 원치 않는 컬럼을 배제</span></span><br><span class="line">windspeed_0_df = windspeed_0.drop([<span class="string">&#x27;windspeed&#x27;</span>,<span class="string">&#x27;casual&#x27;</span>,<span class="string">&#x27;registered&#x27;</span>,<span class="string">&#x27;count&#x27;</span>,<span class="string">&#x27;datetime&#x27;</span>],axis=<span class="number">1</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment">#Windspeed가 0이 아닌 데이터 프레임은 위와 동일한 데이터프레임을 형성하고 학습시킬 Windspeed Series를 그대로 둠</span></span><br><span class="line">windspeed_Not0_df = windspeed_Not0.drop([<span class="string">&#x27;windspeed&#x27;</span>,<span class="string">&#x27;casual&#x27;</span>,<span class="string">&#x27;registered&#x27;</span>,<span class="string">&#x27;count&#x27;</span>,<span class="string">&#x27;datetime&#x27;</span>],axis=<span class="number">1</span>)</span><br><span class="line">windspeed_Not0_series = windspeed_Not0[<span class="string">&#x27;windspeed&#x27;</span>] </span><br><span class="line"></span><br><span class="line"><span class="comment">#모델에 0이 아닌 데이터프레임과 결과값을 학습</span></span><br><span class="line">rf = RandomForestRegressor()</span><br><span class="line">rf.fit(windspeed_Not0_df,windspeed_Not0_series)</span><br><span class="line"></span><br><span class="line"><span class="comment">#학습된 모델에 Windspeed가 0인 데이터프레임의 Windspeed를 도출</span></span><br><span class="line">predicted_windspeed_0 = rf.predict(windspeed_0_df)</span><br><span class="line"></span><br><span class="line"><span class="comment">#도출된 값을 원래의 데이터프레임에 삽입</span></span><br><span class="line">windspeed_0[<span class="string">&#x27;windspeed&#x27;</span>] = predicted_windspeed_0</span><br></pre></td></tr></table></figure>
+
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#나눈 데이터 프레임을 원래의 형태로 복원</span></span><br><span class="line">train_data = pd.concat([windspeed_0,windspeed_Not0],axis=<span class="number">0</span>)</span><br></pre></td></tr></table></figure>
+
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#시간별 정렬을 위해 string type의 datetime을 datetime으로 변환</span></span><br><span class="line">train_data.datetime = pd.to_datetime(train_data.datetime,errors=<span class="string">&#x27;coerce&#x27;</span>)</span><br></pre></td></tr></table></figure>
+
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#windspeed를 수정한 후 다시 상관계수를 분석</span></span><br><span class="line"><span class="comment">#우리의 기대와는 달리 windspeed와 count의 상관관계는 0.1에서 0.11로 간소한 차이만 보임.</span></span><br><span class="line">fig = plt.figure(figsize=[<span class="number">20</span>,<span class="number">20</span>])</span><br><span class="line">ax = sns.heatmap(train_data.corr(),annot=<span class="literal">True</span>,square=<span class="literal">True</span>)</span><br></pre></td></tr></table></figure>
+
+
+<p><img src="/images/Kaggle_0712/output_12_8.png" alt="png"></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">fig = plt.figure(figsize=[<span class="number">5</span>,<span class="number">5</span>])</span><br><span class="line">sns.distplot(train_data[<span class="string">&#x27;windspeed&#x27;</span>],bins=np.linspace(train_data[<span class="string">&#x27;windspeed&#x27;</span>].<span class="built_in">min</span>(),train_data[<span class="string">&#x27;windspeed&#x27;</span>].<span class="built_in">max</span>(),<span class="number">10</span>))</span><br><span class="line">plt.suptitle(<span class="string">&quot;Filled by Random Forest Regressor&quot;</span>)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;Min value of windspeed is &#123;&#125;&quot;</span>.<span class="built_in">format</span>(train_data[<span class="string">&#x27;windspeed&#x27;</span>].<span class="built_in">min</span>()))</span><br></pre></td></tr></table></figure>
+
+
+<p><img src="/images/Kaggle_0712/output_12_9.png" alt="png"></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">test_data.info()</span><br></pre></td></tr></table></figure>
+
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">test_data[<span class="string">&#x27;tempDate&#x27;</span>] = test_data.datetime.apply(<span class="keyword">lambda</span> x:x.split())</span><br><span class="line">test_data[<span class="string">&#x27;weekday&#x27;</span>] = test_data.tempDate.apply(<span class="keyword">lambda</span> x: calendar.day_name[datetime.strptime(x[<span class="number">0</span>],<span class="string">&quot;%Y-%m-%d&quot;</span>).weekday()])</span><br><span class="line">test_data[<span class="string">&#x27;year&#x27;</span>] = test_data.tempDate.apply(<span class="keyword">lambda</span> x: x[<span class="number">0</span>].split(<span class="string">&#x27;-&#x27;</span>)[<span class="number">0</span>])</span><br><span class="line">test_data[<span class="string">&#x27;month&#x27;</span>] = test_data.tempDate.apply(<span class="keyword">lambda</span> x: x[<span class="number">0</span>].split(<span class="string">&#x27;-&#x27;</span>)[<span class="number">1</span>])</span><br><span class="line">test_data[<span class="string">&#x27;day&#x27;</span>] = test_data.tempDate.apply(<span class="keyword">lambda</span> x: x[<span class="number">0</span>].split(<span class="string">&#x27;-&#x27;</span>)[<span class="number">2</span>])</span><br><span class="line">test_data[<span class="string">&#x27;hour&#x27;</span>] = test_data.tempDate.apply(<span class="keyword">lambda</span> x: x[<span class="number">1</span>].split(<span class="string">&#x27;:&#x27;</span>)[<span class="number">0</span>])</span><br></pre></td></tr></table></figure>
+
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">test_data[<span class="string">&#x27;year&#x27;</span>] = pd.to_numeric(test_data.year,errors=<span class="string">&#x27;coerce&#x27;</span>)</span><br><span class="line">test_data[<span class="string">&#x27;month&#x27;</span>] = pd.to_numeric(test_data.month,errors=<span class="string">&#x27;coerce&#x27;</span>)</span><br><span class="line">test_data[<span class="string">&#x27;day&#x27;</span>] = pd.to_numeric(test_data.day,errors=<span class="string">&#x27;coerce&#x27;</span>)</span><br><span class="line">test_data[<span class="string">&#x27;hour&#x27;</span>] = pd.to_numeric(test_data.hour,errors=<span class="string">&#x27;coerce&#x27;</span>)</span><br></pre></td></tr></table></figure>
+
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">test_data.info()</span><br></pre></td></tr></table></figure>
+
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">test_data[<span class="string">&#x27;season&#x27;</span>] = test_data.month.apply(badToRight)</span><br></pre></td></tr></table></figure>
+
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">test_data.head()</span><br></pre></td></tr></table></figure>
+
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">test_data.weekday = test_data.weekday.astype(<span class="string">&#x27;category&#x27;</span>)</span><br></pre></td></tr></table></figure>
+
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">test_data.weekday</span><br></pre></td></tr></table></figure>
+
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">test_data.weekday.cat.categories = [<span class="string">&#x27;5&#x27;</span>,<span class="string">&#x27;1&#x27;</span>,<span class="string">&#x27;6&#x27;</span>,<span class="string">&#x27;0&#x27;</span>,<span class="string">&#x27;4&#x27;</span>,<span class="string">&#x27;2&#x27;</span>,<span class="string">&#x27;3&#x27;</span>]</span><br></pre></td></tr></table></figure>
+
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">dataWind0 = test_data[test_data[<span class="string">&#x27;windspeed&#x27;</span>]==<span class="number">0</span>]</span><br><span class="line">dataWindNot0 = test_data[test_data[<span class="string">&#x27;windspeed&#x27;</span>]!=<span class="number">0</span>]</span><br></pre></td></tr></table></figure>
+
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">dataWind0.columns</span><br></pre></td></tr></table></figure>
+
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">dataWind0_df = dataWind0.drop([<span class="string">&#x27;windspeed&#x27;</span>,<span class="string">&#x27;datetime&#x27;</span>,<span class="string">&#x27;tempDate&#x27;</span>],axis=<span class="number">1</span>)</span><br><span class="line"></span><br><span class="line">dataWindNot0_df = dataWindNot0.drop([<span class="string">&#x27;windspeed&#x27;</span>,<span class="string">&#x27;datetime&#x27;</span>,<span class="string">&#x27;tempDate&#x27;</span>],axis=<span class="number">1</span>)</span><br><span class="line"></span><br><span class="line">dataWindNot0_series = dataWindNot0[<span class="string">&#x27;windspeed&#x27;</span>]</span><br></pre></td></tr></table></figure>
+
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">dataWindNot0_df.head()</span><br></pre></td></tr></table></figure>
+
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">dataWind0_df.head()</span><br></pre></td></tr></table></figure>
+
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">rf2 = RandomForestRegressor()</span><br><span class="line">rf2.fit(dataWindNot0_df,dataWindNot0_series)</span><br><span class="line">predicted = rf2.predict(dataWind0_df)</span><br><span class="line"><span class="built_in">print</span>(predicted)</span><br></pre></td></tr></table></figure>
+
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">dataWind0[<span class="string">&#x27;windspeed&#x27;</span>] = predicted</span><br></pre></td></tr></table></figure>
+
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">test_data = pd.concat([dataWind0,dataWindNot0],axis=<span class="number">0</span>)</span><br></pre></td></tr></table></figure>
+
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">train_data = pd.concat([windspeed_0,windspeed_Not0],axis=<span class="number">0</span>)</span><br></pre></td></tr></table></figure>
+
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">combine = pd.concat([test_data,train_data],axis=<span class="number">0</span>)</span><br></pre></td></tr></table></figure>
+
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># column들 중 값들이 일정하고 정해져있다면 category로 변경하고 필요하지 않은 column들은 이제 버린다.</span></span><br><span class="line">categorizational_columns = [<span class="string">&#x27;holiday&#x27;</span>,<span class="string">&#x27;humidity&#x27;</span>,<span class="string">&#x27;season&#x27;</span>,<span class="string">&#x27;weather&#x27;</span>,<span class="string">&#x27;workingday&#x27;</span>,<span class="string">&#x27;year&#x27;</span>,<span class="string">&#x27;month&#x27;</span>,<span class="string">&#x27;day&#x27;</span>,<span class="string">&#x27;hour&#x27;</span>]</span><br><span class="line">drop_columns = [<span class="string">&#x27;datetime&#x27;</span>,<span class="string">&#x27;casual&#x27;</span>,<span class="string">&#x27;registered&#x27;</span>,<span class="string">&#x27;count&#x27;</span>,<span class="string">&#x27;tempDate&#x27;</span>]</span><br></pre></td></tr></table></figure>
+
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> col <span class="keyword">in</span> categorizational_columns:</span><br><span class="line">    combine[col] = combine[col].astype(<span class="string">&#x27;category&#x27;</span>)</span><br></pre></td></tr></table></figure>
+
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#합친 combine데이터 셋에서 count의 유무로 훈련과 테스트셋을 분리하고 각각을 datetime으로 정렬</span></span><br><span class="line"></span><br><span class="line">train = combine[pd.notnull(combine[<span class="string">&#x27;count&#x27;</span>])].sort_values(by=<span class="string">&#x27;datetime&#x27;</span>)</span><br><span class="line">test = combine[~pd.notnull(combine[<span class="string">&#x27;count&#x27;</span>])].sort_values(by=<span class="string">&#x27;datetime&#x27;</span>)</span><br></pre></td></tr></table></figure>
+
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#데이터 훈련시 집어 넣게 될 각각의 결과 값들</span></span><br><span class="line"></span><br><span class="line">datetimecol = test[<span class="string">&#x27;datetime&#x27;</span>]</span><br><span class="line">yLabels = train[<span class="string">&#x27;count&#x27;</span>] <span class="comment">#count</span></span><br><span class="line">yLabelsRegistered = train[<span class="string">&#x27;registered&#x27;</span>] <span class="comment">#등록된 사용자</span></span><br><span class="line">yLabelsCasual = train[<span class="string">&#x27;casual&#x27;</span>] <span class="comment">#임시 사용자</span></span><br></pre></td></tr></table></figure>
+
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 필요 없는 column들을 버리고 훈련과 테스트 셋을 한다.</span></span><br><span class="line">train = train.drop(drop_columns,axis=<span class="number">1</span>)</span><br><span class="line">test = test.drop(drop_columns,axis=<span class="number">1</span>)</span><br></pre></td></tr></table></figure>
+
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">rmsle</span>(<span class="params">y, y_,convertExp=<span class="literal">True</span></span>):</span><br><span class="line">    <span class="keyword">if</span> convertExp:</span><br><span class="line">        y = np.exp(y), </span><br><span class="line">        y_ = np.exp(y_)</span><br><span class="line">    log1 = np.nan_to_num(np.array([np.log(v + <span class="number">1</span>) <span class="keyword">for</span> v <span class="keyword">in</span> y]))</span><br><span class="line">    log2 = np.nan_to_num(np.array([np.log(v + <span class="number">1</span>) <span class="keyword">for</span> v <span class="keyword">in</span> y_]))</span><br><span class="line">    calc = (log1 - log2) ** <span class="number">2</span></span><br><span class="line">    <span class="keyword">return</span> np.sqrt(np.mean(calc))</span><br></pre></td></tr></table></figure>
+
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> sklearn.linear_model <span class="keyword">import</span> LinearRegression,Ridge,Lasso</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">lr = LinearRegression()</span><br><span class="line"></span><br><span class="line">yLabelslog = np.log1p(yLabels)</span><br><span class="line"><span class="comment">#선형 모델에 우리의 데이터를 학습</span></span><br><span class="line">lr.fit(train,yLabelslog)</span><br><span class="line"><span class="comment">#결과 값 도출</span></span><br><span class="line">preds = lr.predict(train)</span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;RMSLE Value For Linear Regression: &#123;&#125;&#x27;</span>.<span class="built_in">format</span>(rmsle(np.exp(yLabelslog),np.exp(preds),<span class="literal">False</span>)))</span><br></pre></td></tr></table></figure>
+
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#count값의 분포</span></span><br><span class="line">sns.distplot(yLabels,bins=<span class="built_in">range</span>(yLabels.<span class="built_in">min</span>().astype(<span class="string">&#x27;int&#x27;</span>),yLabels.<span class="built_in">max</span>().astype(<span class="string">&#x27;int&#x27;</span>)))</span><br><span class="line"></span><br><span class="line"><span class="comment">#기존 훈련 데이터셋의 count의 개수</span></span><br><span class="line"><span class="built_in">print</span>(yLabels.count()) <span class="comment">#10886</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#3시그마를 적용한 이상치를 배제한 훈련 데이터셋의 count의 개수</span></span><br><span class="line">yLabels[np.logical_and(yLabels.mean()-<span class="number">3</span>*yLabels.std() &lt;= yLabels,yLabels.mean()+<span class="number">3</span>*yLabels.std() &gt;= yLabels)].count() <span class="comment">#10739</span></span><br><span class="line"><span class="comment">#이상치들이 존재할 때는 log를 활용하여 값을 도출</span></span><br></pre></td></tr></table></figure>
+
+
+<p><img src="/images/Kaggle_0712/output_12_10.png" alt="png"></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> sklearn.model_selection <span class="keyword">import</span> GridSearchCV</span><br><span class="line"><span class="keyword">from</span> sklearn <span class="keyword">import</span> metrics</span><br><span class="line"></span><br><span class="line"><span class="comment">#Ridge모델은 L2제약을 가지는 선형회귀모델에서 개선된 모델이며 해당 모델에서 유의 깊게 튜닝해야하는 파라미터는 alpha값이다.</span></span><br><span class="line">ridge = Ridge()</span><br><span class="line"></span><br><span class="line"><span class="comment">#튜닝하고자하는 Ridge의 파라미터 중 특정 파라미터에 배열 값으로 넘겨주게 되면 테스트 후 어떤 파라미터가 최적의 값인지 알려줌 </span></span><br><span class="line">ridge_params = &#123;<span class="string">&#x27;max_iter&#x27;</span>:[<span class="number">3000</span>],<span class="string">&#x27;alpha&#x27;</span>:[<span class="number">0.001</span>,<span class="number">0.01</span>,<span class="number">0.1</span>,<span class="number">1</span>,<span class="number">10</span>,<span class="number">100</span>,<span class="number">1000</span>]&#125;</span><br><span class="line">rmsle_scorer = metrics.make_scorer(rmsle,greater_is_better=<span class="literal">False</span>)</span><br><span class="line">grid_ridge = GridSearchCV(ridge,ridge_params,scoring=rmsle_scorer,cv=<span class="number">5</span>)</span><br><span class="line"></span><br><span class="line">grid_ridge.fit(train,yLabelslog)</span><br><span class="line">preds = grid_ridge.predict(train)</span><br><span class="line"><span class="built_in">print</span>(grid_ridge.best_params_)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;RMSLE Value for Ridge Regression &#123;&#125;&#x27;</span>.<span class="built_in">format</span>(rmsle(np.exp(yLabelslog),np.exp(preds),<span class="literal">False</span>)))</span><br></pre></td></tr></table></figure>
+
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#결과에 대해 GridSearchCV의 변수인 grid_ridge변수에 cv_result_를 통해 alpha값의 변화에 따라 평균값의 변화를 파악 가능</span></span><br><span class="line">df = pd.DataFrame(grid_ridge.cv_results_)</span><br></pre></td></tr></table></figure>
+
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">df.head()</span><br></pre></td></tr></table></figure>
+
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#Ridge모델은 L1제약을 가지는 선형회귀모델에서 개선된 모델이며 해당 모델에서 유의 깊게 튜닝해야하는 파라미터는 alpha값이다.</span></span><br><span class="line">lasso = Lasso()</span><br><span class="line"></span><br><span class="line">lasso_params = &#123;<span class="string">&#x27;max_iter&#x27;</span>:[<span class="number">3000</span>],<span class="string">&#x27;alpha&#x27;</span>:[<span class="number">0.001</span>,<span class="number">0.01</span>,<span class="number">0.1</span>,<span class="number">1</span>,<span class="number">10</span>,<span class="number">100</span>,<span class="number">1000</span>]&#125;</span><br><span class="line">grid_lasso = GridSearchCV(lasso,lasso_params,scoring=rmsle_scorer,cv=<span class="number">5</span>)</span><br><span class="line">grid_lasso.fit(train,yLabelslog)</span><br><span class="line">preds = grid_lasso.predict(train)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;RMSLE Value for Lasso Regression &#123;&#125;&#x27;</span>.<span class="built_in">format</span>(rmsle(np.exp(yLabelslog),np.exp(preds),<span class="literal">False</span>)))</span><br></pre></td></tr></table></figure>
+
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">rf = RandomForestRegressor()</span><br><span class="line"></span><br><span class="line">rf_params = &#123;<span class="string">&#x27;n_estimators&#x27;</span>:[<span class="number">1</span>,<span class="number">10</span>,<span class="number">100</span>]&#125;</span><br><span class="line">grid_rf = GridSearchCV(rf,rf_params,scoring=rmsle_scorer,cv=<span class="number">5</span>)</span><br><span class="line">grid_rf.fit(train,yLabelslog)</span><br><span class="line">preds = grid_rf.predict(train)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;RMSLE Value for RandomForest &#123;&#125;&#x27;</span>.<span class="built_in">format</span>(rmsle(np.exp(yLabelslog),np.exp(preds),<span class="literal">False</span>)))</span><br></pre></td></tr></table></figure>
+
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> sklearn.ensemble <span class="keyword">import</span> GradientBoostingRegressor</span><br><span class="line"></span><br><span class="line">gb = GradientBoostingRegressor()</span><br><span class="line">gb_params=&#123;<span class="string">&#x27;max_depth&#x27;</span>:<span class="built_in">range</span>(<span class="number">1</span>,<span class="number">11</span>,<span class="number">1</span>),<span class="string">&#x27;n_estimators&#x27;</span>:[<span class="number">1</span>,<span class="number">10</span>,<span class="number">100</span>]&#125;</span><br><span class="line">grid_gb=GridSearchCV(gb,gb_params,scoring=rmsle_scorer,cv=<span class="number">5</span>)</span><br><span class="line">grid_gb.fit(train,yLabelslog)</span><br><span class="line">preds = grid_gb.predict(train)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;RMSLE Value for GradientBoosting &#123;&#125;&#x27;</span>.<span class="built_in">format</span>(rmsle(np.exp(yLabelslog),np.exp(preds),<span class="literal">False</span>)))</span><br></pre></td></tr></table></figure>
+
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">predsTest = grid_gb.predict(test)</span><br><span class="line">fig,(ax1,ax2)= plt.subplots(ncols=<span class="number">2</span>)</span><br><span class="line">fig.set_size_inches(<span class="number">12</span>,<span class="number">5</span>)</span><br><span class="line">sns.distplot(yLabels,ax=ax1,bins=<span class="number">50</span>)</span><br><span class="line">sns.distplot(np.exp(predsTest),ax=ax2,bins=<span class="number">50</span>)</span><br></pre></td></tr></table></figure>
+
+<p><img src="/images/Kaggle_0712/output_12_11.png" alt="png"></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">submission = pd.DataFrame(&#123;</span><br><span class="line">        <span class="string">&quot;datetime&quot;</span>: datetimecol,</span><br><span class="line">        <span class="string">&quot;count&quot;</span>: [<span class="built_in">max</span>(<span class="number">0</span>, x) <span class="keyword">for</span> x <span class="keyword">in</span> np.exp(predsTest)]</span><br><span class="line">    &#125;)</span><br><span class="line">submission.to_csv(<span class="string">&#x27;bike_predictions_gbm_separate_without_fe.csv&#x27;</span>, index=<span class="literal">False</span>)</span><br></pre></td></tr></table></figure>
+
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">submission.head()</span><br></pre></td></tr></table></figure>
+
+        </div>
+        <footer class="article-footer">
+            
+
+
+
+    <a data-url="https://park128.github.io/2022/07/13/day_0712/" data-id="cl5itwk0z00008stvd5f2ezl4" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+<script>
+    (function ($) {
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+        </footer>
+    </div>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "author": {
+            "@type": "Person",
+            "name": "John Doe"
+        },
+        
+        "image": "https://park128.github.io/images/Kaggle_0712/output_12_1.png",
+        "keywords": "",
+        "genre": "",
+        "datePublished": "2022-07-13",
+        "dateCreated": "2022-07-13",
+        "dateModified": "2022-07-13",
+        "url": "https://park128.github.io/2022/07/13/day_0712/",
+        "description": "프로젝트 개요
+강의명 : 2022년 K-디지털 직업훈련(Training) 사업 - AI데이터플랫폼을 활용한 빅데이터 분석전문가 과정
+교과목명 : 빅데이터 분석 및 시각화, AI개발 기초, 인공지능 프로그래밍
+프로젝트 주제 : 캐글 대회 Bike Sharing Demand 데이터를 활용한 수요 예측 대회
+프로젝트 마감일 : 2022년 7월 19일 화요일
+수강",
+        "wordCount": 2740
+    }
+</script>
+
+</article>
+
+    <section id="comments">
+    
+        
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+
+
+    
+    </section>
+
+
+
+                        </div>
+                    </section>
+                    <aside id="sidebar">
+    <a class="sidebar-toggle" title="Expand Sidebar"><i class="toggle icon"></i></a>
+    <div class="sidebar-top">
+        <p>follow:</p>
+        <ul class="social-links">
+            
+                
+                <li>
+                    <a class="social-tooltip" title="twitter" href="/" target="_blank" rel="noopener">
+                        <i class="icon fa fa-twitter"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="facebook" href="/" target="_blank" rel="noopener">
+                        <i class="icon fa fa-facebook"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="stack-overflow" href="/" target="_blank" rel="noopener">
+                        <i class="icon fa fa-stack-overflow"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="github" href="https://github.com/ppoffice/hexo-theme-hueman" target="_blank" rel="noopener">
+                        <i class="icon fa fa-github"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="weibo" href="/" target="_blank" rel="noopener">
+                        <i class="icon fa fa-weibo"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="rss" href="/" target="_blank" rel="noopener">
+                        <i class="icon fa fa-rss"></i>
+                    </a>
+                </li>
+                
+            
+        </ul>
+    </div>
+    
+        
+<nav id="article-nav">
+    
+    
+        <a href="/2022/07/08/day_0708/" id="article-nav-older" class="article-nav-link-wrap">
+        <strong class="article-nav-caption">older</strong>
+        <p class="article-nav-title">Kaggle_2</p>
+        <i class="icon fa fa-chevron-left" id="icon-chevron-left"></i>
+        </a>
+    
+</nav>
+
+    
+    <div class="widgets-container">
+        
+            
+                
+
+            
+                
+    <div class="widget-wrap">
+        <h3 class="widget-title">recents</h3>
+        <div class="widget">
+            <ul id="recent-post" class="">
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2022/07/13/day_0712/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/images/Kaggle_0712/output_12_1.png)" alt="" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/2022/07/13/day_0712/" class="title"></a></p>
+                            <p class="item-date"><time datetime="2022-07-12T23:49:08.861Z" itemprop="datePublished">2022-07-13</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2022/07/08/day_0708/" class="thumbnail">
+    
+    
+        <span class="thumbnail-image thumbnail-none"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/2022/07/08/day_0708/" class="title">Kaggle_2</a></p>
+                            <p class="item-date"><time datetime="2022-07-08T00:00:00.000Z" itemprop="datePublished">2022-07-08</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2022/07/07/day_0707/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/images/Kaggle_0707/output_12_1.png)" alt="Kaggle_1" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/2022/07/07/day_0707/" class="title">Kaggle_1</a></p>
+                            <p class="item-date"><time datetime="2022-07-07T00:00:00.000Z" itemprop="datePublished">2022-07-07</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2022/07/06/day_0706/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/images/python_0706/output_4_1.png)" alt="Python 데이터 시각화" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/2022/07/06/day_0706/" class="title">Python 데이터 시각화</a></p>
+                            <p class="item-date"><time datetime="2022-07-06T00:00:00.000Z" itemprop="datePublished">2022-07-06</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2022/07/05/day_0705/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/images/python_0705/output_14_0.png)" alt="Python 랜덤 포레스트" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/2022/07/05/day_0705/" class="title">Python 랜덤 포레스트</a></p>
+                            <p class="item-date"><time datetime="2022-07-05T00:00:00.000Z" itemprop="datePublished">2022-07-05</time></p>
+                        </div>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+            
+                
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">archives</h3>
+        <div class="widget">
+            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/07/">July 2022</a><span class="archive-list-count">6</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/06/">June 2022</a><span class="archive-list-count">8</span></li></ul>
+        </div>
+    </div>
+
+
+            
+                
+
+            
+                
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">links</h3>
+        <div class="widget">
+            <ul>
+                
+                    <li>
+                        <a href="http://hexo.io">Hexo</a>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+
+            
+        
+    </div>
+</aside>
+
+                </div>
+            </div>
+        </div>
+        <footer id="footer">
+    <div class="container">
+        <div class="container-inner">
+            <a id="back-to-top" href="javascript:;"><i class="icon fa fa-angle-up"></i></a>
+            <div class="credit">
+                <h1 class="logo-wrap">
+                    <a href="/" class="logo"></a>
+                </h1>
+                <p>&copy; 2022 John Doe</p>
+                
+                <p>Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>. Theme by <a href="https://github.com/ppoffice" target="_blank">PPOffice</a></p>
+                
+            </div>
+            <div class="footer-plugins">
+              
+    
+
+
+            </div>
+        </div>
+    </div>
+</footer>
+
+    </div>
+    
+    
+    <script>
+    var disqus_shortname = 'hexo-theme-hueman';
+    
+    
+    var disqus_url = 'https://park128.github.io/2022/07/13/day_0712/';
+    
+    (function() {
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+    </script>
+
+
+
+
+
+    
+        
+<script src="/libs/lightgallery/js/lightgallery.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-thumbnail.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-pager.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-autoplay.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-fullscreen.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-zoom.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-hash.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-share.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-video.min.js"></script>
+
+    
+    
+        
+<script src="/libs/justified-gallery/jquery.justifiedGallery.min.js"></script>
+
+    
+    
+
+    
+    
+    
+
+
+
+<!-- Custom Scripts -->
+
+<script src="/js/main.js"></script>
+
+
+</body>
+</html>
