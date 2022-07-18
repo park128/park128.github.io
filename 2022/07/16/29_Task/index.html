@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+
+    
+
+    
+    <title>Unit 29. 함수 사용하기 복습 | Hellow World</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <meta name="keywords" content="" />
+    
+    <meta name="description" content="Unit 29. 함수 사용하기프로그래밍을 하다 보면 들어가는 값만 바뀐 뿐 같은 코드가 계속 반복되는 경우가 많다. 특히 같은 코드를 반복해서 작성하면 코드도 길어지고 중간에 실수 할 가능성이 높아진다. 파이썬은 함수(function)라는 기능을 제공하는데 특정 용도의 코드를 한 곳에 모아 놓은 것을 뜻한다. 그래서 함수는 처음 한 번만 작성해 놓으면 나중">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Unit 29. 함수 사용하기 복습">
+<meta property="og:url" content="https://park128.github.io/2022/07/16/29_Task/index.html">
+<meta property="og:site_name" content="Hellow World">
+<meta property="og:description" content="Unit 29. 함수 사용하기프로그래밍을 하다 보면 들어가는 값만 바뀐 뿐 같은 코드가 계속 반복되는 경우가 많다. 특히 같은 코드를 반복해서 작성하면 코드도 길어지고 중간에 실수 할 가능성이 높아진다. 파이썬은 함수(function)라는 기능을 제공하는데 특정 용도의 코드를 한 곳에 모아 놓은 것을 뜻한다. 그래서 함수는 처음 한 번만 작성해 놓으면 나중">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2022-07-16T00:00:00.000Z">
+<meta property="article:modified_time" content="2022-07-18T06:47:32.118Z">
+<meta property="article:author" content="John Doe">
+<meta name="twitter:card" content="summary">
+    
+
+    
+        <link rel="alternate" href="/" title="Hellow World" type="application/atom+xml" />
+    
+
+    
+
+    
+<link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css">
+
+    
+<link rel="stylesheet" href="/libs/titillium-web/styles.css">
+
+    
+<link rel="stylesheet" href="/libs/source-code-pro/styles.css">
+
+
+    
+<link rel="stylesheet" href="/css/style.css">
+
+
+    
+<script src="/libs/jquery/3.5.0/jquery.min.js"></script>
+
+    
+    
+        
+<link rel="stylesheet" href="/libs/lightgallery/css/lightgallery.min.css">
+
+    
+    
+        
+<link rel="stylesheet" href="/libs/justified-gallery/justifiedGallery.min.css">
+
+    
+    
+    
+    
+
+
+<meta name="generator" content="Hexo 6.2.0"></head>
+
+<body>
+    <div id="wrap">
+        <header id="header">
+    <div id="header-outer" class="outer">
+        <div class="container">
+            <div class="container-inner">
+                <div id="header-title">
+                    <h1 class="logo-wrap">
+                        <a href="/" class="logo"></a>
+                    </h1>
+                    
+                </div>
+                <div id="header-inner" class="nav-container">
+                    <a id="main-nav-toggle" class="nav-icon fa fa-bars"></a>
+                    <div class="nav-container-inner">
+                        <ul id="main-nav">
+                            
+                                <li class="main-nav-list-item" >
+                                    <a class="main-nav-list-link" href="/">Home</a>
+                                </li>
+                            
+                                    
+                                
+                                <li class="main-nav-list-item" >
+                                    <a class="main-nav-list-link" href="/about/index.html">About</a>
+                                </li>
+                            
+                        </ul>
+                        <nav id="sub-nav">
+                            <div id="search-form-wrap">
+
+    <form class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
+        <button type="submit" class="search-form-submit"></button>
+    </form>
+    <div class="ins-search">
+    <div class="ins-search-mask"></div>
+    <div class="ins-search-container">
+        <div class="ins-input-wrapper">
+            <input type="text" class="ins-search-input" placeholder="Type something..." />
+            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: 'Posts',
+            PAGES: 'Pages',
+            CATEGORIES: 'Categories',
+            TAGS: 'Tags',
+            UNTITLED: '(Untitled)',
+        },
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+
+<script src="/js/insight.js"></script>
+
+
+</div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+        <div class="container">
+            <div class="main-body container-inner">
+                <div class="main-body-inner">
+                    <section id="main">
+                        <div class="main-body-header">
+    <h1 class="header">
+    
+    uncategorized
+    </h1>
+</div>
+
+                        <div class="main-body-content">
+                            <article id="post-29_Task" class="article article-single article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+            <header class="article-header">
+                
+    
+        <h1 class="article-title" itemprop="name">
+        Unit 29. 함수 사용하기 복습
+        </h1>
+    
+
+            </header>
+        
+        
+            <div class="article-meta">
+                
+  <div class="article-date">
+    <i class="fa fa-calendar"></i>
+    <a href="/2022/07/16/29_Task/" class="article-date">
+       <time datetime="2022-07-16T00:00:00.000Z" itemprop="datePublished">2022-07-16</time>
+    </a>
+  </div>
+
+
+<div class="article-date">
+  <i class="fa fa-calendar-plus-o"></i>
+  <a href="/2022/07/16/29_Task/" class="article-date">
+     <time datetime="2022-07-18T06:47:32.118Z" itemprop="dateModified">2022-07-18</time>
+  </a>
+</div>
+
+
+                
+
+                
+                
+
+                
+
+            </div>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+            
+
+            
+
+            
+
+            <h1 id="Unit-29-함수-사용하기"><a href="#Unit-29-함수-사용하기" class="headerlink" title="Unit 29. 함수 사용하기"></a>Unit 29. 함수 사용하기</h1><p>프로그래밍을 하다 보면 들어가는 값만 바뀐 뿐 같은 코드가 계속 반복되는 경우가 많다. 특히 같은 코드를 반복해서 작성하면 코드도 길어지고 중간에 실수 할 가능성이 높아진다.</p>
+<p>파이썬은 함수(function)라는 기능을 제공하는데 특정 용도의 코드를 한 곳에 모아 놓은 것을 뜻한다. 그래서 함수는 처음 한 번만 작성해 놓으면 나중에 필요할 때 계속 불러 쓸 수 있다.<br>예를 들어 지금까지 사용했더 print, input 등도 모두 파이썬에서 미리 만들어 둔 함수이다.</p>
+<p>즉, 함수를 사용하면 이런 점이 용이하다.</p>
+<ul>
+<li>코드의 용도를 구분할 수 있다.</li>
+<li>코드를 재사용할 수 있다.</li>
+<li>실수를 줄일 수 있다.</li>
+</ul>
+<p>함수는 다양한 사용 방법이 있으므로 이제부터 각 유닛에서 함수의 사용법을 알아보자.</p>
+<h2 id="29-1-Hello-world-출력-함수-만들기"><a href="#29-1-Hello-world-출력-함수-만들기" class="headerlink" title="29.1 Hello,world! 출력 함수 만들기"></a>29.1 Hello,world! 출력 함수 만들기</h2><p>함수는 def에 함수 이름을 지정하고()(괄호)와 :(콜론)을 붙인 뒤 다음 줄에 원하는 코드를 작성한다.(함수의 이름을 짓는 방법은 변수와 같다.)</p>
+<p>이때 코드는 반드시 들여쓰기를 해야한다.(들여쓰기 규칙은 if, for, while과 같다.)</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">함수이름</span> ():</span><br><span class="line">  코드</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>여기서 def는 정의하다(define)에서 따온 키워드 이다.</li>
+</ul>
+<h2 id="29-1-1-함수-만들기"><a href="#29-1-1-함수-만들기" class="headerlink" title="29.1.1 함수 만들기"></a>29.1.1 함수 만들기</h2><p>그럼 ‘Hello, world!’를 출력하는 함수를 만들어보겠다.</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">hello</span>():</span><br><span class="line">  <span class="built_in">print</span>(<span class="string">&#x27;Hello, world&#x27;</span>)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>함수 이름은 hello로 지정하고, 그다음 줄에서 print로 ‘Hello, world!’ 문자열을 출력하도록 만들었다.</p>
+<h2 id="29-1-2-함수-호출하기"><a href="#29-1-2-함수-호출하기" class="headerlink" title="29.1.2 함수 호출하기"></a>29.1.2 함수 호출하기</h2><p>함수를 만들었으니 사용을 해봐보자. 함수를 만든 부분 아래에서 hello()와 같이 함수 이름과 () 를 적어주면 함수를 사용 할 수 있다.</p>
+<ul>
+<li>함수()</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hello()</span><br></pre></td></tr></table></figure>
+
+<pre><code>Hello, world
+</code></pre>
+<p>이렇게 함수를 사용하는 방법을”함수를 호출(call)한다”라고 부른다.</p>
+<h2 id="29-1-3-소스-파일에서-함수를-만들고-호출하기"><a href="#29-1-3-소스-파일에서-함수를-만들고-호출하기" class="headerlink" title="29.1.3 소스 파일에서 함수를 만들고 호출하기"></a>29.1.3 소스 파일에서 함수를 만들고 호출하기</h2><p>이번에는 소스 파일에서 함수를 만들고 호출해보겠습니다. 다음 내용을 IDLE의 소스 코드 편집 창에 입력한 뒤 실행해보자.</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">hello</span>():</span><br><span class="line">  <span class="built_in">print</span>(<span class="string">&#x27;Hello, world&#x27;</span>)</span><br><span class="line"></span><br><span class="line">hello()</span><br></pre></td></tr></table></figure>
+
+<pre><code>Hello, world
+</code></pre>
+<h2 id="29-1-4-함수의-실행-순서"><a href="#29-1-4-함수의-실행-순서" class="headerlink" title="29.1.4 함수의 실행 순서"></a>29.1.4 함수의 실행 순서</h2><p>이제 파이썬 스크립트에서 함수의 실행 순서를 알아보겠습니다. hello 함수는 다음과 같은 순서로 실행된다.</p>
+<ul>
+<li>1.파이썬 스크립트 최초 실행</li>
+<li>2.hello 함수 호출</li>
+<li>3.hello 함수 실행</li>
+<li>4.print 함수 실행 및 ‘Hello, world!’출력</li>
+<li>5.hello 함수 종료</li>
+<li>6.파이썬 스크립트 종료</li>
+</ul>
+<h2 id="29-1-5-함수-작성과-함수-호출-순서"><a href="#29-1-5-함수-작성과-함수-호출-순서" class="headerlink" title="29.1.5 함수 작성과 함수 호출 순서"></a>29.1.5 함수 작성과 함수 호출 순서</h2><p>함수를 만들고 호출할 때 주의할 점이 있는데, 바로 함수를 만들기 전에 함수를 먼저 호출하면 안 된다는 점이다. 즉, 다음과 같이 함수를 먼저 호출한 뒤 함수를 만들 수는 없다.</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">hello1() <span class="comment"># hello 함수를 만들기 전에 함수를 먼저 호출</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">hello1</span>(): <span class="comment"># hello 함수를 만듦</span></span><br><span class="line">  <span class="built_in">print</span>(<span class="string">&#x27;Hello, world!&#x27;</span>)</span><br></pre></td></tr></table></figure>
+
+
+<pre><code>---------------------------------------------------------------------------
+
+NameError                                 Traceback (most recent call last)
+
+Input In [5], in &lt;cell line: 1&gt;()
+----&gt; 1 hello1() # hello 함수를 만들기 전에 함수를 먼저 호출
+      3 def hello1(): # hello 함수를 만듦
+      4   print(&#39;Hello, world!&#39;)
+
+
+NameError: name &#39;hello1&#39; is not defined
+</code></pre>
+<p>함수를 먼저 호출하면 함수가 정의(define)되지 않닸다는 에러가 발생한다. 왜냐하면 파이썬 코드는 위에서 아래로 순차적으로 실행되기 때문이다. 반드시 함수를 먼저 만든 뒤에 함수를 호출해야된다.</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">hello1</span>():</span><br><span class="line">  <span class="built_in">print</span>(<span class="string">&#x27;Hello, world!&#x27;</span>)</span><br><span class="line"></span><br><span class="line">hello1()</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>바른 예를 한번 더 작성해보았다.</li>
+</ul>
+<h2 id="29-2-덧셈-함수-만들기"><a href="#29-2-덧셈-함수-만들기" class="headerlink" title="29.2 덧셈 함수 만들기"></a>29.2 덧셈 함수 만들기</h2><p>지금까지 만들어본 hello 함수는 동작이 고정되어 있다. 즉, 같은 문자열만 출력한다. 이러면 함수를 사용하는 의미가 없다. 그러니 이번에는 함수에 값을 넣어 동작을 바꿔보겠다.</p>
+<p>함수의 값을 받으려면()(괄호)안에 변수 이름을 지정해주면 된다. 특히 이 변수를 매개변수(parameter)라고 부른다.</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">함수이름</span>(<span class="params">매개변수<span class="number">1</span>, 매개변수<span class="number">2</span></span>):</span><br><span class="line">  코드</span><br></pre></td></tr></table></figure>
+
+<p>이제 두 수를 더하는 함수를 만들어보겠다. 다음과 같이 함수의 괄호 안에 매개변수 a와 b를 지정하고, 그다음 줄에서 print로 a와b의 합을 출력한다.</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">add</span>(<span class="params">a,b</span>):</span><br><span class="line">  <span class="built_in">print</span>(a+b)</span><br></pre></td></tr></table></figure>
+
+<p>add 함수가 만들어졌다. 그럼 add 함수에 10과 20을 넣어서 호출해보자.</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">add(<span class="number">10</span>,<span class="number">20</span>)</span><br></pre></td></tr></table></figure>
+
+<pre><code>30
+</code></pre>
+<p>10과 20을 더한 값인 30이 출력되었다. 여기서 함수를 호출할 때 넣은 값을 인수(argument)라고 부른다. 즉, add(10, 20)에서 10과 20이 인수이다.</p>
+<h2 id="29-3-함수의-결과를-반환하기"><a href="#29-3-함수의-결과를-반환하기" class="headerlink" title="29.3 함수의 결과를 반환하기"></a>29.3 함수의 결과를 반환하기</h2><p>앞에서 만든 add 함수는 두 수를 더해서 바로 출력하였다. 그러면 함수에서 값을 꺼내 올 수는 없을까?<br>다음과 같이 함수 안에서 return을 사용하면 값을 함수 바깥으로 반환하게 된다.(return에 값을 지정하지 않으면 None을 반환).</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">함수이름</span>(<span class="params">매개변수</span>):</span><br><span class="line">  <span class="keyword">return</span> 반환값</span><br></pre></td></tr></table></figure>
+
+<p>그럼 두 수를 더해서 반환하는 add 함수를 만들어보자. 함수 add에 매개변수에 a와 b를 지정하고 그다음 줄에서 return으로 a와 b를 더한 값을 반환하도록 만든다.</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">add</span>(<span class="params">a,b</span>):</span><br><span class="line">  <span class="keyword">return</span> a+b</span><br></pre></td></tr></table></figure>
+
+<p>이제 add 함수에 10과 20을 넣고 결과를 x에 저장한다. 그리고 x의 값을 출력해보면</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">x = add(<span class="number">10</span>, <span class="number">20</span>)</span><br><span class="line">x</span><br></pre></td></tr></table></figure>
+
+
+
+
+<pre><code>30
+</code></pre>
+<p>x의 값을 출력해보면 10과 20을 더한 값인 30이 나온다. 이처럼 return을 사용하면 값을 함수 바깥으로 반환할 수 있고, 함수에서 나온 값을 변수에 저장할 수 있다.</p>
+<p>즉, return으로 반환하는 값은 반환값이라고 하고 함수를 호출해준 바깥에 결과를 알려주기 위해 사용한다.</p>
+<p>변환값은 변수에 저장하지 않고 바로 다른 함수에 넣을 수도 있다. 다음은 print에서 바로 add를 호출하여 결과를 출력해보겠다.</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">print</span>(add(<span class="number">10</span>,<span class="number">20</span>))</span><br></pre></td></tr></table></figure>
+
+<pre><code>30
+</code></pre>
+<h2 id="29-4-함수에서-값을-여러-개-반환하기"><a href="#29-4-함수에서-값을-여러-개-반환하기" class="headerlink" title="29.4 함수에서 값을 여러 개 반환하기"></a>29.4 함수에서 값을 여러 개 반환하기</h2><p>지금까지 함수의 결과를 변수에 저장할 때 값을 한 개만 저장했다. 이번에는 함수에서 값을 여러 개 반환하는 방법을 알아보자.</p>
+<p>함수에서 값을 여러 개 반환할 때는 다음과 같이 return에 값이나 변수를 ,(콤마)로 구분해서 지정하면 된다.</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">함수이름</span>(<span class="params">매개변수</span>):</span><br><span class="line">  <span class="keyword">return</span> 반환값<span class="number">1</span>, 반환값<span class="number">2</span></span><br></pre></td></tr></table></figure>
+
+<p>그럼 두 수를 더한 값과 뺀 값을 반환하는 함수를 만들어보자. 다음과 같이 retuurn으로 a와b를 더한 값과 a에서 b를 뺀 값을 반환하도록 만든다.</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">add_sub</span>(<span class="params">a,b</span>):</span><br><span class="line">  <span class="keyword">return</span> a+b,a-b</span><br></pre></td></tr></table></figure>
+
+<p>이제 add_sub 함수에 10과 20을 넣고 결과를 x와y에 저장한다. 그리고 x와 y의 값을 출력해본다.</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">x, y = add_sub(<span class="number">10</span>, <span class="number">20</span>)</span><br><span class="line"><span class="built_in">print</span>(x)</span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span>(y)</span><br></pre></td></tr></table></figure>
+
+<pre><code>30
+-10
+</code></pre>
+<p>x의 값을 출력해보면 10과 20을 더한 값인 30이 나오고, y의 값을 출력해보면 10에서 20을 뺀 값인 -10이 나온다. 이처럼 return은 여러 개 반환할 수 있다.</p>
+<ul>
+<li>retyrn으로 값을 여러 개 반환하면 실제로는 튜플이 반환된다. 다음과 같이 add_sub의 결과를 변수 한 개에 저장해서 출력해보면 튜플이 반환되는 것을 볼 수 있다.</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">x = add_sub(<span class="number">10</span>,<span class="number">20</span>)</span><br><span class="line">x</span><br></pre></td></tr></table></figure>
+
+
+
+
+<pre><code>(30, -10)
+</code></pre>
+<ul>
+<li>즉, 튜플이 변수 여러 개에 할당되는 특성을 이용한 것(언패킹)</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">x, y = (<span class="number">30</span>,-<span class="number">10</span>)</span><br><span class="line"><span class="built_in">print</span>(x)</span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span>(y)</span><br></pre></td></tr></table></figure>
+
+<pre><code>30
+-10
+</code></pre>
+<h2 id="29-5-함수의-호출-과정-알아보기"><a href="#29-5-함수의-호출-과정-알아보기" class="headerlink" title="29.5 함수의 호출 과정 알아보기"></a>29.5 함수의 호출 과정 알아보기</h2><p>지금까지 함수를 만드는 방법을 배웠다. 이번에는 함수 여러 개를 만든 뒤에 각 함수의 호출 과정을 스택 다이어그램(stack diagram)으로 알아보자.<br>스택은 접시 쌓기와 같은데 접시를 차곡차곡 쌓고 꺼낼 때는 위쪽부터 차례대로 꺼내는 방식이다.(단, 중간에 있는 접시는 뺄 수 없다.)<br>파이썬에서는 접시 쌓기와 방향이 반대인데, 함수가 아래쪽 방향으로 추가되고 함수가 끝나면 위쪽 방향으로 사라진다.<br>다음은 덧셈 함수 add와 곱셈 함수 mul이 있고, add함수 안에서 mul 함수를 호출하는 방식으로 만들어져 있다.</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">mul</span>(<span class="params">a,b</span>):</span><br><span class="line">  c = a*b</span><br><span class="line">  <span class="keyword">return</span> c</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">add</span>(<span class="params">a,b</span>):</span><br><span class="line">  c = a+b</span><br><span class="line">  <span class="built_in">print</span>(c)</span><br><span class="line">  d = mul(a,b)</span><br><span class="line">  <span class="built_in">print</span>(d)</span><br><span class="line"></span><br><span class="line">x = <span class="number">10</span></span><br><span class="line">y = <span class="number">20</span></span><br><span class="line">add(x,y)</span><br></pre></td></tr></table></figure>
+
+<pre><code>30
+200
+</code></pre>
+<h2 id="연습문제-몫과-나머지를-구하는-함수-만들기"><a href="#연습문제-몫과-나머지를-구하는-함수-만들기" class="headerlink" title="연습문제: 몫과 나머지를 구하는 함수 만들기"></a>연습문제: 몫과 나머지를 구하는 함수 만들기</h2><p>다음 소스 코드를 완성하여 x를 y로 나누었을 때의 몫과 나머지가 출력되게 만드세요.</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">x = <span class="number">10</span></span><br><span class="line">y = <span class="number">3</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">get_quotient_remainder</span>(<span class="params">a, b</span>):</span><br><span class="line">  <span class="keyword">return</span> a // b, a % b</span><br></pre></td></tr></table></figure>
+
+        </div>
+        <footer class="article-footer">
+            
+
+
+
+    <a data-url="https://park128.github.io/2022/07/16/29_Task/" data-id="cl5qdv8t70000ogtv3smybpdb" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+<script>
+    (function ($) {
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+        </footer>
+    </div>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "author": {
+            "@type": "Person",
+            "name": "John Doe"
+        },
+        "headline": "Unit 29. 함수 사용하기 복습",
+        "image": "https://park128.github.io",
+        "keywords": "",
+        "genre": "",
+        "datePublished": "2022-07-16",
+        "dateCreated": "2022-07-16",
+        "dateModified": "2022-07-18",
+        "url": "https://park128.github.io/2022/07/16/29_Task/",
+        "description": "Unit 29. 함수 사용하기프로그래밍을 하다 보면 들어가는 값만 바뀐 뿐 같은 코드가 계속 반복되는 경우가 많다. 특히 같은 코드를 반복해서 작성하면 코드도 길어지고 중간에 실수 할 가능성이 높아진다.
+파이썬은 함수(function)라는 기능을 제공하는데 특정 용도의 코드를 한 곳에 모아 놓은 것을 뜻한다. 그래서 함수는 처음 한 번만 작성해 놓으면 나중",
+        "wordCount": 1272
+    }
+</script>
+
+</article>
+
+    <section id="comments">
+    
+        
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+
+
+    
+    </section>
+
+
+
+                        </div>
+                    </section>
+                    <aside id="sidebar">
+    <a class="sidebar-toggle" title="Expand Sidebar"><i class="toggle icon"></i></a>
+    <div class="sidebar-top">
+        <p>follow:</p>
+        <ul class="social-links">
+            
+                
+                <li>
+                    <a class="social-tooltip" title="twitter" href="/" target="_blank" rel="noopener">
+                        <i class="icon fa fa-twitter"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="facebook" href="/" target="_blank" rel="noopener">
+                        <i class="icon fa fa-facebook"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="stack-overflow" href="/" target="_blank" rel="noopener">
+                        <i class="icon fa fa-stack-overflow"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="github" href="https://github.com/ppoffice/hexo-theme-hueman" target="_blank" rel="noopener">
+                        <i class="icon fa fa-github"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="weibo" href="/" target="_blank" rel="noopener">
+                        <i class="icon fa fa-weibo"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="rss" href="/" target="_blank" rel="noopener">
+                        <i class="icon fa fa-rss"></i>
+                    </a>
+                </li>
+                
+            
+        </ul>
+    </div>
+    
+        
+<nav id="article-nav">
+    
+    
+        <a href="/2022/07/13/day_0712/" id="article-nav-older" class="article-nav-link-wrap">
+        <strong class="article-nav-caption">older</strong>
+        <p class="article-nav-title"></p>
+        <i class="icon fa fa-chevron-left" id="icon-chevron-left"></i>
+        </a>
+    
+</nav>
+
+    
+    <div class="widgets-container">
+        
+            
+                
+
+            
+                
+    <div class="widget-wrap">
+        <h3 class="widget-title">recents</h3>
+        <div class="widget">
+            <ul id="recent-post" class="">
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2022/07/16/29_Task/" class="thumbnail">
+    
+    
+        <span class="thumbnail-image thumbnail-none"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/2022/07/16/29_Task/" class="title">Unit 29. 함수 사용하기 복습</a></p>
+                            <p class="item-date"><time datetime="2022-07-16T00:00:00.000Z" itemprop="datePublished">2022-07-16</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2022/07/13/day_0712/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/images/Kaggle_0712/output_12_1.png)" alt="" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/2022/07/13/day_0712/" class="title"></a></p>
+                            <p class="item-date"><time datetime="2022-07-12T23:49:08.861Z" itemprop="datePublished">2022-07-13</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2022/07/08/day_0708/" class="thumbnail">
+    
+    
+        <span class="thumbnail-image thumbnail-none"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/2022/07/08/day_0708/" class="title">Kaggle_2</a></p>
+                            <p class="item-date"><time datetime="2022-07-08T00:00:00.000Z" itemprop="datePublished">2022-07-08</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2022/07/07/day_0707/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/images/Kaggle_0707/output_12_1.png)" alt="Kaggle_1" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/2022/07/07/day_0707/" class="title">Kaggle_1</a></p>
+                            <p class="item-date"><time datetime="2022-07-07T00:00:00.000Z" itemprop="datePublished">2022-07-07</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2022/07/06/day_0706/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/images/python_0706/output_4_1.png)" alt="Python 데이터 시각화" class="thumbnail-image"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/2022/07/06/day_0706/" class="title">Python 데이터 시각화</a></p>
+                            <p class="item-date"><time datetime="2022-07-06T00:00:00.000Z" itemprop="datePublished">2022-07-06</time></p>
+                        </div>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+            
+                
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">archives</h3>
+        <div class="widget">
+            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/07/">July 2022</a><span class="archive-list-count">7</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/06/">June 2022</a><span class="archive-list-count">8</span></li></ul>
+        </div>
+    </div>
+
+
+            
+                
+
+            
+                
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">links</h3>
+        <div class="widget">
+            <ul>
+                
+                    <li>
+                        <a href="http://hexo.io">Hexo</a>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+
+            
+        
+    </div>
+</aside>
+
+                </div>
+            </div>
+        </div>
+        <footer id="footer">
+    <div class="container">
+        <div class="container-inner">
+            <a id="back-to-top" href="javascript:;"><i class="icon fa fa-angle-up"></i></a>
+            <div class="credit">
+                <h1 class="logo-wrap">
+                    <a href="/" class="logo"></a>
+                </h1>
+                <p>&copy; 2022 John Doe</p>
+                
+                <p>Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>. Theme by <a href="https://github.com/ppoffice" target="_blank">PPOffice</a></p>
+                
+            </div>
+            <div class="footer-plugins">
+              
+    
+
+
+            </div>
+        </div>
+    </div>
+</footer>
+
+    </div>
+    
+    
+    <script>
+    var disqus_shortname = 'hexo-theme-hueman';
+    
+    
+    var disqus_url = 'https://park128.github.io/2022/07/16/29_Task/';
+    
+    (function() {
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+    </script>
+
+
+
+
+
+    
+        
+<script src="/libs/lightgallery/js/lightgallery.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-thumbnail.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-pager.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-autoplay.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-fullscreen.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-zoom.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-hash.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-share.min.js"></script>
+
+        
+<script src="/libs/lightgallery/js/lg-video.min.js"></script>
+
+    
+    
+        
+<script src="/libs/justified-gallery/jquery.justifiedGallery.min.js"></script>
+
+    
+    
+
+    
+    
+    
+
+
+
+<!-- Custom Scripts -->
+
+<script src="/js/main.js"></script>
+
+
+</body>
+</html>
